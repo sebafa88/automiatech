@@ -46,6 +46,8 @@
     }
     .brand-text { display: inline-block; }
     .brand-ia { color: var(--blue); }
+    .brand-logo { height: 68px; width: auto; }
+    .footer-logo { height: 58px; width: auto; }
 
     /* NAV */
     nav {
@@ -696,20 +698,43 @@
     @media (max-width: 900px) {
       .hero .container { grid-template-columns: 1fr; }
       .hero-visual { display: none; }
-      .two-col { grid-template-columns: 1fr; gap: 40px; }
+      .hero { padding: 52px 0 40px; }
+      .two-col { grid-template-columns: 1fr; gap: 36px; }
       .services-grid { grid-template-columns: 1fr; }
       .steps-grid { grid-template-columns: 1fr 1fr; }
-      .about-grid { grid-template-columns: 1fr; gap: 48px; }
+      .about-grid { grid-template-columns: 1fr; gap: 40px; }
       .nav-links { display: none; }
+      .nav-cta { display: none; }
       .hamburger { display: flex; }
-      .contact-grid { grid-template-columns: 1fr; gap: 40px; }
+      .contact-grid { grid-template-columns: 1fr; gap: 36px; }
       .form-row { grid-template-columns: 1fr; }
       .fit-grid { grid-template-columns: 1fr; }
-      .notnasa-inner { grid-template-columns: 1fr; gap: 40px; }
+      .notnasa-inner { grid-template-columns: 1fr; gap: 36px; }
+
+      .brand-logo { height: 44px; }
+      .footer-logo { height: 40px; }
+
+      .how-we-work, .services, .build-section, .fit-section, .about, .pricing-section { padding: 56px 0; }
+      .notnasa-section, .process { padding: 56px 0; }
+      .cta-section { padding: 60px 0; }
+      .process .section-title { margin-bottom: 36px !important; }
+
+      .fit-day { flex-direction: column; }
+      .fit-robot-wrap { padding: 28px 0; min-height: 200px; }
+
+      .custom-banner { flex-direction: column; align-items: flex-start; gap: 16px; }
+      .custom-banner .btn-outline { align-self: flex-start; }
     }
     @media (max-width: 560px) {
       .steps-grid { grid-template-columns: 1fr; }
       .about-stats { grid-template-columns: 1fr 1fr; }
+      .container { padding: 0 20px; }
+      .contact-form { padding: 24px 20px; }
+      .service-card { padding: 28px 22px; }
+      .pricing-card { padding: 28px 22px; }
+      .step { padding: 28px 22px; }
+      .hero h1 { letter-spacing: -0.8px; }
+      .section-title { letter-spacing: -0.4px; }
     }
   </style>
 </head>
@@ -719,7 +744,7 @@
   <nav>
     <div class="container">
       <a href="#" class="brand">
-        <img src="logo-face.jpg" alt="AutomIA" style="height: 68px; width: auto;">
+        <img src="logo-face.jpg" alt="AutomIA" class="brand-logo">
       </a>
       <div class="nav-links">
         <a href="#come-lavoro">Come lavoro</a>
@@ -1295,7 +1320,7 @@
   <footer>
     <div class="container">
       <a href="#" class="brand">
-        <img src="logo-face.jpg" alt="AutomIA" style="height: 58px; width: auto;">
+        <img src="logo-face.jpg" alt="AutomIA" class="brand-logo footer-logo">
       </a>
       <p>© 2026 AutomIA · <a href="privacy.html" style="color:var(--gray);">Privacy Policy</a></p>
     </div>
