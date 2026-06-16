@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Starter 1:1 · AutomIA — Capisci l'AI in 1 ora</title>
+  <meta name="description" content="AI Starter: 1 ora 1:1 con Sebastiano Facco per capire le basi dell'AI. Come funzionano i modelli, panoramica tool, avvertenze concrete. €79 — senza tecnicismi.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%232563EB'/%3E%3Ctext x='16' y='22' font-family='Inter,Arial,sans-serif' font-size='18' font-weight='900' fill='white' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="fonts/inter.css">
+  <link rel="canonical" href="https://automiatech.it/corso.html">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://automiatech.it/corso.html">
+  <meta property="og:title" content="Corso AI per PMI · AI Starter 1:1 da €79 | AutomIA">
+  <meta property="og:description" content="1 ora 1:1 per capire le basi dell'AI, come funzionano i modelli, i tool principali — e come riconoscere hype da valore reale. €79 — senza tecnicismi.">
+  <meta property="og:image" content="https://automiatech.it/og-image.jpg">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:site_name" content="AutomIA">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preload" href="https://assets.calendly.com/assets/external/widget.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css"></noscript>
+
+  <style>
+    :root {
+      --blue: #2563EB;
+      --blue-light: #EFF6FF;
+      --dark: #0F172A;
+      --charcoal: #1E293B;
+      --gray: #64748B;
+      --gray-light: #F8FAFC;
+      --border: #E2E8F0;
+      --white: #FFFFFF;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', sans-serif;
+      color: var(--charcoal);
+      background: var(--white);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    :focus-visible {
+      outline: 2px solid var(--blue);
+      outline-offset: 3px;
+      border-radius: 4px;
+    }
+    .brand {
+      font-weight: 800;
+      font-size: 1.25rem;
+      color: var(--charcoal);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      letter-spacing: -0.3px;
+    }
+    .btn-primary {
+      background: var(--blue);
+      color: white;
+      padding: 14px 28px;
+      min-height: 44px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      transition: opacity 0.2s;
+      display: inline-flex;
+      align-items: center;
+    }
+    .btn-primary:hover { opacity: 0.88; }
+
+    /* NAV */
+    nav {
+      padding: 18px 0;
+      border-bottom: 1px solid var(--border);
+      background: rgba(255,255,255,0.97);
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav .container {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 0 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .back-link {
+      font-size: 0.88rem;
+      color: var(--gray);
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    .back-link:hover { color: var(--charcoal); }
+
+    /* HERO */
+    .page-hero {
+      background: var(--dark);
+      padding: 64px 0 56px;
+      position: relative;
+      overflow: hidden;
+    }
+    .glow-blob {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      width: 600px; height: 300px;
+      background: radial-gradient(ellipse, rgba(37,99,235,0.3) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero-inner {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 0 28px;
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: center;
+    }
+    .hero-tag {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: #60A5FA;
+      text-transform: uppercase;
+      letter-spacing: 1.8px;
+      margin-bottom: 16px;
+    }
+    .hero-title {
+      font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+      font-weight: 900;
+      color: white;
+      letter-spacing: -1.5px;
+      line-height: 1.1;
+      margin-bottom: 16px;
+    }
+    .hero-title .accent {
+      background: linear-gradient(90deg, #93C5FD, #2563EB);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: #93C5FD;
+    }
+    .hero-price {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 8px;
+      background: #1E293B;
+      border: 1px solid #334155;
+      border-radius: 100px;
+      padding: 10px 20px;
+      margin-bottom: 20px;
+    }
+    .hero-price-num {
+      font-size: 1.6rem;
+      font-weight: 900;
+      color: white;
+      letter-spacing: -0.8px;
+    }
+    .hero-price-unit {
+      font-size: 0.88rem;
+      color: #64748B;
+      font-weight: 500;
+    }
+    .hero-sub {
+      color: #94A3B8;
+      font-size: 0.95rem;
+      line-height: 1.75;
+    }
+
+    /* PROGRAMMA CARD */
+    .program-card {
+      background: #1E293B;
+      border-radius: 16px;
+      padding: 32px;
+      border: 1px solid #334155;
+    }
+    .program-card h3 {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: #94A3B8;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 20px;
+    }
+    .program-items {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .program-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+    .program-num {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--blue);
+      background: rgba(37,99,235,0.15);
+      border-radius: 4px;
+      padding: 2px 7px;
+      flex-shrink: 0;
+      margin-top: 2px;
+      letter-spacing: 0.5px;
+    }
+    .program-item p {
+      font-size: 0.88rem;
+      color: #CBD5E1;
+      line-height: 1.6;
+    }
+    .program-item strong { color: white; }
+    .program-divider {
+      height: 1px;
+      background: #334155;
+      margin: 18px 0;
+    }
+    .program-take {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: #94A3B8;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin-bottom: 10px;
+    }
+    .program-take-items {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .program-take-item {
+      font-size: 0.82rem;
+      color: #94A3B8;
+      padding-left: 14px;
+      position: relative;
+    }
+    .program-take-item::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: var(--blue);
+      font-size: 0.78rem;
+    }
+    .mini-profile {
+      margin-top: 24px;
+      padding-top: 20px;
+      border-top: 1px solid #334155;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .mini-profile img {
+      width: 40px; height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center 10%;
+      flex-shrink: 0;
+    }
+    .mini-profile-name { font-size: 0.85rem; font-weight: 700; color: white; }
+    .mini-profile-role { font-size: 0.75rem; color: #64748B; margin-top: 2px; }
+
+    /* PER CHI È */
+    .forwhom-section {
+      background: var(--white);
+      padding: 72px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .forwhom-wrapper {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 0 28px;
+    }
+    .section-tag {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--blue);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+    }
+    .section-title {
+      font-size: clamp(1.5rem, 2.5vw, 2rem);
+      font-weight: 800;
+      letter-spacing: -0.8px;
+      margin-bottom: 40px;
+      color: var(--charcoal);
+    }
+    .forwhom-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+    .forwhom-col {
+      border-radius: 16px;
+      padding: 32px;
+    }
+    .forwhom-yes { background: #F0FDF4; border: 1.5px solid #BBF7D0; }
+    .forwhom-no { background: var(--gray-light); border: 1.5px solid var(--border); }
+    .forwhom-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+    .forwhom-icon {
+      width: 26px; height: 26px;
+      border-radius: 50%;
+      background: #22C55E;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.8rem;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    .forwhom-icon-no { background: #94A3B8; }
+    .forwhom-header h3 { font-size: 0.95rem; font-weight: 700; }
+    .forwhom-col ul { list-style: none; display: flex; flex-direction: column; gap: 9px; }
+    .forwhom-col ul li {
+      font-size: 0.88rem;
+      color: var(--charcoal);
+      line-height: 1.5;
+      padding-left: 14px;
+      position: relative;
+    }
+    .forwhom-col ul li::before { content: '—'; position: absolute; left: 0; color: var(--gray); }
+
+    /* NOT THIS */
+    .notthis-section {
+      background: var(--gray-light);
+      padding: 48px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .notthis-wrapper {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 0 28px;
+      text-align: center;
+    }
+    .notthis-wrapper p {
+      font-size: 0.92rem;
+      color: var(--gray);
+      line-height: 1.75;
+    }
+    .notthis-wrapper strong { color: var(--charcoal); }
+    .notthis-wrapper a { color: var(--blue); text-decoration: none; font-weight: 600; }
+    .notthis-wrapper a:hover { text-decoration: underline; }
+
+    /* CALENDLY */
+    .calendly-section {
+      flex: 1;
+      background: var(--white);
+      padding: 64px 0;
+    }
+    .calendly-wrapper {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 0 28px;
+    }
+    .calendly-header {
+      text-align: center;
+      margin-bottom: 36px;
+    }
+    .calendly-header h2 {
+      font-size: 1.5rem;
+      font-weight: 800;
+      letter-spacing: -0.6px;
+      color: var(--charcoal);
+      margin-bottom: 8px;
+    }
+    .calendly-header p { color: var(--gray); font-size: 0.9rem; }
+    .calendly-embed-container {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 4px 32px rgba(0,0,0,0.06);
+    }
+    .calendly-inline-widget {
+      min-width: 320px;
+      height: 700px;
+    }
+
+    /* FAQ */
+    .faq-section {
+      background: var(--gray-light);
+      padding: 52px 0;
+      border-top: 1px solid var(--border);
+    }
+    .faq-wrapper { max-width: 680px; margin: 0 auto; padding: 0 28px; }
+    .faq-wrapper h3 {
+      font-size: 1.1rem;
+      font-weight: 800;
+      letter-spacing: -0.4px;
+      color: var(--charcoal);
+      margin-bottom: 28px;
+      text-align: center;
+    }
+    .faq-items { display: flex; flex-direction: column; }
+    .faq-item { padding: 18px 0; border-bottom: 1px solid var(--border); }
+    .faq-item:first-child { border-top: 1px solid var(--border); }
+    .faq-q { font-size: 0.92rem; font-weight: 700; color: var(--charcoal); margin-bottom: 6px; }
+    .faq-a { font-size: 0.88rem; color: var(--gray); line-height: 1.65; }
+    .faq-a a { color: var(--blue); text-decoration: none; font-weight: 600; }
+
+    /* FOOTER */
+    footer { border-top: 1px solid var(--border); padding: 24px 0; background: var(--white); }
+    footer .container {
+      max-width: 1080px; margin: 0 auto; padding: 0 28px;
+      display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;
+    }
+    footer p { color: var(--gray); font-size: 0.82rem; }
+    footer a { color: var(--gray); text-decoration: none; }
+    footer a:hover { color: var(--blue); }
+
+    /* STICKY MOBILE CTA */
+    .sticky-corso-cta { display: none; }
+    @media (max-width: 900px) {
+      .sticky-corso-cta {
+        display: block;
+        position: fixed;
+        bottom: 0; left: 0; right: 0;
+        background: var(--blue);
+        padding: 14px 24px;
+        z-index: 200;
+        text-align: center;
+        box-shadow: 0 -3px 16px rgba(37,99,235,0.35);
+        transform: translateY(100%);
+        transition: transform 0.3s ease;
+      }
+      .sticky-corso-cta.visible { transform: translateY(0); }
+      .sticky-corso-cta a {
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1rem;
+      }
+    }
+
+    /* MOBILE */
+    @media (max-width: 900px) {
+      .hero-inner { grid-template-columns: 1fr; gap: 36px; }
+      .page-hero { padding: 48px 0 40px; }
+      .forwhom-grid { grid-template-columns: 1fr; }
+      .calendly-inline-widget { height: 600px; }
+    }
+    @media (max-width: 560px) {
+      nav .container, footer .container { padding: 0 20px; }
+      .hero-inner, .forwhom-wrapper, .notthis-wrapper, .calendly-wrapper, .faq-wrapper { padding: 0 20px; }
+      .hero-title { letter-spacing: -0.8px; }
+      .forwhom-col { padding: 24px 20px; }
+      .program-card { padding: 24px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="container">
+      <a href="index.html" class="brand">
+        <img src="logo-face.jpg" alt="AutomIA" style="height:44px; width:auto;">
+      </a>
+      <a href="index.html" class="back-link">← Torna al sito</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="page-hero">
+    <div class="glow-blob"></div>
+    <div class="hero-inner">
+      <div>
+        <div class="hero-tag">Formazione 1:1 · AI Starter</div>
+        <h1 class="hero-title">Capisci l'AI.<br><span class="accent">In un'ora.</span></h1>
+        <div class="hero-price">
+          <span class="hero-price-num">€79</span>
+          <span class="hero-price-unit">/ 1 ora · sessione 1:1</span>
+        </div>
+        <p class="hero-sub">Non sei qui per diventare un tecnico. Sei qui per capire cosa fa davvero l'AI, come funzionano i modelli, quali tool esistono — e come riconoscere hype da valore reale. Tutto in un'ora.</p>
+        <div style="margin-top:20px; display:flex; align-items:center; gap:16px; flex-wrap:wrap;">
+          <a href="#prenota" class="btn-primary">Prenota l'AI Starter →</a>
+          <span style="font-size:0.78rem; color:#64748B;">Pagamento alla prenotazione · Disdetta fino a 24h prima</span>
+        </div>
+      </div>
+
+      <div class="program-card">
+        <h3>Cosa facciamo in quest'ora</h3>
+        <div class="program-items">
+          <div class="program-item">
+            <span class="program-num">01</span>
+            <p><strong>Cos'è l'AI davvero.</strong> Agenti, LLM, automazioni — cosa significano questi termini e cosa possono fare concretamente per una PMI o uno studio.</p>
+          </div>
+          <div class="program-item">
+            <span class="program-num">02</span>
+            <p><strong>Panoramica dei tool principali.</strong> ChatGPT, Claude, Gemini, n8n, Make — cosa fa ognuno, quanto costa, quando conviene e quando è solo marketing.</p>
+          </div>
+          <div class="program-item">
+            <span class="program-num">03</span>
+            <p><strong>Dove entra l'AI (e dove no).</strong> Le categorie di attività dove i modelli danno risultati concreti — scrittura, analisi, ricerca, supporto — e cosa invece ancora non sanno fare bene.</p>
+          </div>
+          <div class="program-item">
+            <span class="program-num">04</span>
+            <p><strong>Avvertenze concrete.</strong> Costi nascosti, falsi miti, rischi reali — cosa non delegare mai all'AI e come riconoscere un'offerta gonfiata.</p>
+          </div>
+          <div class="program-item">
+            <span class="program-num">05</span>
+            <p><strong>Basi del prompt engineering.</strong> Come parlare con l'AI per ottenere risultati utili, con esempi pratici sul tuo settore specifico.</p>
+          </div>
+          <div class="program-item">
+            <span class="program-num">06</span>
+            <p><strong>Creare immagini nell'era dell'AI.</strong> Quali strumenti esistono, come funzionano, cosa si può fare anche senza essere un grafico — e qualche consiglio pratico per iniziare.</p>
+          </div>
+        </div>
+        <div class="program-divider"></div>
+        <div class="program-take">Porti a casa</div>
+        <div class="program-take-items">
+          <div class="program-take-item">Checklist per valutare qualsiasi tool AI in autonomia</div>
+          <div class="program-take-item">5 prompt base adattati al tuo settore</div>
+          <div class="program-take-item">Glossario AI senza gergo inutile</div>
+          <div class="program-take-item">Mini ebook riepilogativo via email dopo la sessione</div>
+        </div>
+        <div class="mini-profile">
+          <img src="photo.jpg" alt="Sebastiano Facco">
+          <div>
+            <div class="mini-profile-name">Sebastiano Facco</div>
+            <div class="mini-profile-role">Consulente AI · automiatech.it</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PER CHI È -->
+  <section class="forwhom-section">
+    <div class="forwhom-wrapper">
+      <div class="section-tag">A chi serve</div>
+      <h2 class="section-title">Fa per te?</h2>
+      <div class="forwhom-grid">
+        <div class="forwhom-col forwhom-yes">
+          <div class="forwhom-header">
+            <span class="forwhom-icon">✓</span>
+            <h3>Sì, se...</h3>
+          </div>
+          <ul>
+            <li>Senti parlare di AI ovunque ma non hai ancora capito cosa c'entra con il tuo lavoro</li>
+            <li>Hai provato ChatGPT ma non ci hai ricavato nulla di concreto</li>
+            <li>Vuoi capire prima di investire soldi in strumenti o consulenze</li>
+            <li>Ti hanno proposto soluzioni AI e non sai come valutarle</li>
+            <li>Vuoi capire cosa sta succedendo davvero con l'AI, senza hype e senza tecnicismi</li>
+          </ul>
+        </div>
+        <div class="forwhom-col forwhom-no">
+          <div class="forwhom-header">
+            <span class="forwhom-icon forwhom-icon-no">✕</span>
+            <h3>No, se...</h3>
+          </div>
+          <ul>
+            <li>Hai già chiaro cosa vuoi fare con l'AI e ti serve qualcuno che lo realizzi</li>
+            <li>Hai bisogno di analizzare un processo specifico della tua azienda</li>
+            <li>Vuoi una consulenza personalizzata sul tuo caso — per quello c'è la <a href="index.html#prezzi" style="color:var(--blue); font-weight:600;">Prima sessione →</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NON È CONSULENZA -->
+  <section class="notthis-section">
+    <div class="notthis-wrapper">
+      <p>L'AI Starter non è una consulenza sul tuo caso. È un'ora per capire il mondo dell'AI — così quando ne parlerai con chiunque (me incluso), saprai cosa chiedere e cosa evitare. Se poi vuoi analizzare la tua azienda nello specifico, la <a href="index.html#prezzi">Prima sessione da €100</a> parte già da lì.</p>
+    </div>
+  </section>
+
+  <!-- CALENDLY -->
+  <section class="calendly-section" id="prenota">
+    <div class="calendly-wrapper">
+      <div class="calendly-header">
+        <h2>Prenota la tua sessione</h2>
+        <p>Scegli giorno e orario · Confermato subito via email · Pagamento alla prenotazione</p>
+      </div>
+      <div class="calendly-embed-container">
+        <div class="calendly-inline-widget"
+             data-url="https://calendly.com/automiatech-info"
+             style="min-width:320px;height:700px;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq-section">
+    <div class="faq-wrapper">
+      <h3>Domande frequenti</h3>
+      <div class="faq-items">
+        <div class="faq-item">
+          <div class="faq-q">È diverso dalla consulenza normale?</div>
+          <div class="faq-a">Sì, completamente. La sessione di consulenza (€100/h) analizza il tuo caso specifico e ti dice cosa fare nella tua azienda. L'AI Starter è formazione: ti insegna le basi perché tu possa capire il territorio e valutare in autonomia. Pubblico diverso, obiettivo diverso.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q">Devo sapere già qualcosa di AI?</div>
+          <div class="faq-a">No. L'AI Starter parte da zero — non presuppone nessuna conoscenza tecnica. Serve solo la curiosità di capire cosa sta succedendo e un'ora di tempo.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q">Come si svolge la sessione?</div>
+          <div class="faq-a">Online via Google Meet o Zoom, 1:1 con me. Non è una lezione frontale — è una conversazione strutturata in cui parto sempre da te: cosa fai, cosa hai già sentito, cosa ti incuriosisce o spaventa. Ti mando il link con la conferma di prenotazione.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q">Cosa succede se ho domande sul mio caso specifico?</div>
+          <div class="faq-a">Durante l'AI Starter rispondo a domande generali sull'AI e i tool. Se emergono domande specifiche sulla tua azienda che meritano un'analisi più approfondita, te lo segnalo — e puoi prenotare una <a href="index.html#prezzi">Prima sessione</a> per andare in profondità.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q">Quanto costa e come si paga?</div>
+          <div class="faq-a">€79 per la sessione da 1 ora. Il pagamento avviene al momento della prenotazione tramite Calendly.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>© 2026 AutomIA — <a href="mailto:info@automiatech.it">info@automiatech.it</a></p>
+      <p><a href="privacy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a></p>
+    </div>
+  </footer>
+
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+  <div class="sticky-corso-cta" id="stickyCorsoCta">
+    <a href="#prenota">Prenota l'AI Starter €79 →</a>
+  </div>
+
+  <script>
+    (function() {
+      var bar = document.getElementById('stickyCorsoCta');
+      var hero = document.querySelector('.page-hero');
+      var target = document.getElementById('prenota');
+      if (!bar || !hero || !target) return;
+      function updateBar() {
+        var heroBottom = hero.getBoundingClientRect().bottom;
+        var targetTop = target.getBoundingClientRect().top;
+        var wh = window.innerHeight;
+        if (heroBottom < 0 && targetTop > wh * 0.6) {
+          bar.classList.add('visible');
+        } else {
+          bar.classList.remove('visible');
+        }
+      }
+      window.addEventListener('scroll', updateBar, { passive: true });
+      updateBar();
+    })();
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "AI Starter 1:1",
+    "description": "Sessione formativa 1:1 di 1 ora: basi dell'AI, panoramica tool, come funzionano i modelli, avvertenze concrete, prompt engineering. Con Sebastiano Facco, consulente AI.",
+    "provider": {
+      "@type": "Person",
+      "name": "Sebastiano Facco",
+      "url": "https://automiatech.it"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "79",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "url": "https://automiatech.it/corso.html"
+    },
+    "url": "https://automiatech.it/corso.html",
+    "hasCourseInstance": {
+      "@type": "CourseInstance",
+      "courseMode": "online",
+      "duration": "PT1H"
+    }
+  }
+  </script>
+
+</body>
+</html>

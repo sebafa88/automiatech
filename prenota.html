@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prenota la call gratuita · AutomIA</title>
+  <meta name="description" content="Prenota 15 minuti gratuiti con Sebastiano Facco — consulente AI per PMI. Nessun impegno: capiamo insieme se posso aiutarti.">
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%232563EB'/%3E%3Ctext x='16' y='22' font-family='Inter,Arial,sans-serif' font-size='18' font-weight='900' fill='white' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="fonts/inter.css">
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+
+  <style>
+    :root {
+      --blue: #2563EB;
+      --blue-light: #EFF6FF;
+      --dark: #0F172A;
+      --charcoal: #1E293B;
+      --gray: #64748B;
+      --gray-light: #F8FAFC;
+      --border: #E2E8F0;
+      --white: #FFFFFF;
+    }
+    :focus-visible {
+      outline: 2px solid var(--blue);
+      outline-offset: 3px;
+      border-radius: 4px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', sans-serif;
+      color: var(--charcoal);
+      background: var(--white);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* NAV */
+    nav {
+      padding: 18px 0;
+      border-bottom: 1px solid var(--border);
+      background: rgba(255,255,255,0.97);
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav .container {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 0 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .brand {
+      font-weight: 800;
+      font-size: 1.25rem;
+      color: var(--charcoal);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      letter-spacing: -0.3px;
+    }
+    .brand-ia { color: var(--blue); }
+    .back-link {
+      font-size: 0.88rem;
+      color: var(--gray);
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .back-link:hover { color: var(--charcoal); }
+
+    /* HERO AREA */
+    .page-hero {
+      background: var(--dark);
+      padding: 64px 0 52px;
+      position: relative;
+      overflow: hidden;
+    }
+    .glow-blob {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      width: 600px; height: 300px;
+      background: radial-gradient(ellipse, rgba(37,99,235,0.3) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero-inner {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 0 28px;
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: center;
+    }
+    .hero-tag {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: #60A5FA;
+      text-transform: uppercase;
+      letter-spacing: 1.8px;
+      margin-bottom: 16px;
+    }
+    .hero-title {
+      font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+      font-weight: 900;
+      color: white;
+      letter-spacing: -1.5px;
+      line-height: 1.1;
+      margin-bottom: 20px;
+    }
+    .hero-title .accent {
+      background: linear-gradient(90deg, #93C5FD, #2563EB);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: #93C5FD;
+    }
+    .hero-sub {
+      color: #94A3B8;
+      font-size: 0.95rem;
+      line-height: 1.75;
+    }
+
+    /* WHAT TO EXPECT */
+    .expect-card {
+      background: #1E293B;
+      border-radius: 16px;
+      padding: 32px;
+      border: 1px solid #334155;
+    }
+    .expect-card h3 {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: #94A3B8;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 20px;
+    }
+    .expect-items {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .expect-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+    .expect-dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--blue);
+      flex-shrink: 0;
+      margin-top: 7px;
+    }
+    .expect-item p {
+      font-size: 0.88rem;
+      color: #CBD5E1;
+      line-height: 1.6;
+    }
+    .expect-item strong { color: white; }
+
+    .mini-profile {
+      margin-top: 28px;
+      padding-top: 24px;
+      border-top: 1px solid #334155;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .mini-profile-avatar {
+      width: 44px; height: 44px;
+      border-radius: 50%;
+      background: var(--blue);
+      color: white;
+      font-weight: 800;
+      font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .mini-profile-name {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: white;
+    }
+    .mini-profile-role {
+      font-size: 0.78rem;
+      color: #64748B;
+      margin-top: 2px;
+    }
+
+    /* CALENDLY SECTION */
+    .calendly-section {
+      flex: 1;
+      background: var(--gray-light);
+      padding: 56px 0;
+    }
+    .calendly-wrapper {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 0 28px;
+    }
+    .calendly-header {
+      text-align: center;
+      margin-bottom: 36px;
+    }
+    .calendly-header h2 {
+      font-size: 1.5rem;
+      font-weight: 800;
+      letter-spacing: -0.6px;
+      color: var(--charcoal);
+      margin-bottom: 8px;
+    }
+    .calendly-header p {
+      color: var(--gray);
+      font-size: 0.9rem;
+    }
+    .calendly-embed-container {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 4px 32px rgba(0,0,0,0.06);
+    }
+    .calendly-inline-widget {
+      min-width: 320px;
+      height: 700px;
+    }
+
+    /* FAQ */
+    .faq-section {
+      background: var(--white);
+      padding: 52px 0;
+      border-top: 1px solid var(--border);
+    }
+    .faq-wrapper {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 0 28px;
+    }
+    .faq-wrapper h3 {
+      font-size: 1.1rem;
+      font-weight: 800;
+      letter-spacing: -0.4px;
+      color: var(--charcoal);
+      margin-bottom: 28px;
+      text-align: center;
+    }
+    .faq-items { display: flex; flex-direction: column; gap: 0; }
+    .faq-item {
+      padding: 18px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .faq-item:first-child { border-top: 1px solid var(--border); }
+    .faq-q {
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: var(--charcoal);
+      margin-bottom: 6px;
+    }
+    .faq-a {
+      font-size: 0.88rem;
+      color: var(--gray);
+      line-height: 1.65;
+    }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 24px 0;
+      background: var(--white);
+    }
+    footer .container {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 0 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    footer p { color: var(--gray); font-size: 0.82rem; }
+    footer a { color: var(--gray); text-decoration: none; }
+    footer a:hover { color: var(--blue); }
+
+    /* MOBILE */
+    @media (max-width: 900px) {
+      .hero-inner {
+        grid-template-columns: 1fr;
+        gap: 36px;
+      }
+      .page-hero { padding: 48px 0 40px; }
+      .calendly-section { padding: 36px 0; }
+      .calendly-inline-widget { height: 600px; }
+    }
+    @media (max-width: 560px) {
+      nav .container, footer .container { padding: 0 20px; }
+      .hero-inner, .calendly-wrapper, .faq-wrapper { padding: 0 20px; }
+      .hero-title { letter-spacing: -0.8px; }
+      .back-link { font-size: 0.8rem; gap: 4px; }
+      .expect-card { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="container">
+      <a href="index.html" class="brand">
+        <img src="logo-face.jpg" alt="AutomIA" style="height:44px; width:auto;">
+      </a>
+      <a href="index.html" class="back-link">← Torna al sito</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="page-hero">
+    <div class="glow-blob"></div>
+    <div class="hero-inner">
+      <div>
+        <div class="hero-tag">Call gratuita · 15 minuti</div>
+        <h1 class="hero-title">Parliamo.<br><span class="accent">Senza impegno.</span></h1>
+        <p class="hero-sub">Raccontami come lavora la tua azienda. In 15 minuti capiamo insieme se l'AI può fare la differenza — e dove. Se non puoi fare nulla, te lo dico subito: è ancora più utile.</p>
+      </div>
+
+      <div class="expect-card">
+        <h3>Cosa succede in questi 15 minuti</h3>
+        <div class="expect-items">
+          <div class="expect-item">
+            <div class="expect-dot"></div>
+            <p><strong>Mi racconti come lavori.</strong> Quali processi ti tolgono più tempo, cosa provi già, dove ti senti bloccato.</p>
+          </div>
+          <div class="expect-item">
+            <div class="expect-dot"></div>
+            <p><strong>Ti dico cosa vedo:</strong> dove l'AI può fare la differenza nel tuo caso specifico — e dove non conviene. Niente hype, niente soluzioni preconfezionate.</p>
+          </div>
+          <div class="expect-item">
+            <div class="expect-dot"></div>
+            <p><strong>Se c'è qualcosa di concreto,</strong> ti dico cosa fare, quanto ci vuole e quanto costa — prima di qualsiasi impegno.</p>
+          </div>
+          <div class="expect-item">
+            <div class="expect-dot"></div>
+            <p><strong>Nessun venditore, nessun pitch.</strong> Parli direttamente con me, Sebastiano — chi analizza, progetta e costruisce.</p>
+          </div>
+        </div>
+        <div class="mini-profile">
+          <img src="photo.jpg" alt="Sebastiano Facco" style="width:44px;height:44px;border-radius:50%;object-fit:cover;object-position:center 10%;flex-shrink:0;" width="44" height="44">
+          <div>
+            <div class="mini-profile-name">Sebastiano Facco</div>
+            <div class="mini-profile-role">Consulente AI · automiatech.it</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALENDLY -->
+  <section class="calendly-section">
+    <div class="calendly-wrapper">
+      <div class="calendly-header">
+        <h2>Scegli giorno e orario</h2>
+        <p>Confermato subito via email · Puoi disdire fino a 24h prima</p>
+      </div>
+      <div class="calendly-embed-container">
+        <div class="calendly-inline-widget"
+             data-url="https://calendly.com/automiatech-info">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq-section">
+    <div class="faq-wrapper">
+      <h3>Domande frequenti</h3>
+      <div class="faq-items">
+        <div class="faq-item">
+          <div class="faq-q">È davvero gratuita?</div>
+          <div class="faq-a">Sì, completamente. Nessuna carta di credito, nessun abbonamento. Sono 15 minuti in cui capisco la tua situazione e ti dico cosa penso — senza impegno da parte tua.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q">Devo sapere già cosa voglio?</div>
+          <div class="faq-a">No. La maggior parte delle persone con cui parlo non sa ancora cosa chiedere — e va benissimo così. Partiamo da come lavori oggi, poi vediamo.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q">Come si svolge la call?</div>
+          <div class="faq-a">Via Google Meet, Zoom o telefono — scegli tu. Ti mando il link insieme alla conferma di prenotazione.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q">Cosa succede dopo?</div>
+          <div class="faq-a">Se c'è qualcosa su cui posso aiutarti, ti faccio una proposta concreta. Se non c'è, te lo dico e ti indico dove guardare. In ogni caso, esci con qualcosa di utile.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q">Posso disdire o spostare?</div>
+          <div class="faq-a">Sì, puoi gestirlo direttamente dal link che ti arriva via email — fino a 24 ore prima.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q">Se decido di andare avanti, quanto costa?</div>
+          <div class="faq-a">Dipende da cosa hai bisogno. Nella call ti do già un'idea dei range — nessuna proposta arriva a sorpresa. Puoi anche vedere i prezzi delle sessioni di consulenza direttamente <a href="index.html#prezzi" style="color:var(--blue);">sul sito</a>.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>© 2026 AutomIA — <a href="mailto:info@automiatech.it">info@automiatech.it</a></p>
+      <p><a href="privacy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a></p>
+    </div>
+  </footer>
+
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+</body>
+</html>

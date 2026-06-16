@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosa dicono i clienti · AutomIA</title>
+  <meta name="description" content="Esperienze reali di chi ha già lavorato con AutomIA — PMI e professionisti italiani che hanno capito come usare l'AI nella loro realtà.">
+  <link rel="canonical" href="https://automiatech.it/testimonianze.html">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%232563EB'/%3E%3Ctext x='16' y='22' font-family='Inter,Arial,sans-serif' font-size='18' font-weight='900' fill='white' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://automiatech.it/testimonianze.html">
+  <meta property="og:title" content="Cosa dicono i clienti · AutomIA">
+  <meta property="og:description" content="Esperienze reali di chi ha già lavorato con AutomIA.">
+  <meta property="og:image" content="https://automiatech.it/og-image.jpg">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:site_name" content="AutomIA">
+  <link rel="preconnect" href="https://assets.calendly.com">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <link rel="stylesheet" href="fonts/inter.css">
+  <link rel="preload" href="https://assets.calendly.com/assets/external/widget.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css"></noscript>
+
+  <style>
+    :focus-visible { outline: 2px solid #2563EB; outline-offset: 3px; border-radius: 4px; }
+    :root {
+      --blue: #2563EB;
+      --dark: #0F172A;
+      --charcoal: #1E293B;
+      --gray: #64748B;
+      --border: #E2E8F0;
+      --white: #FFFFFF;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; color: var(--charcoal); background: var(--white); line-height: 1.6; }
+    .container { max-width: 1080px; margin: 0 auto; padding: 0 28px; }
+
+    /* BRAND */
+    .brand {
+      font-weight: 800; font-size: 1.35rem; letter-spacing: -0.3px;
+      color: var(--charcoal); display: flex; align-items: center;
+      gap: 10px; text-decoration: none;
+    }
+    .brand-logo { height: 68px; width: auto; }
+    .footer-logo { height: 58px; width: auto; }
+
+    /* NAV */
+    nav {
+      padding: 20px 0; border-bottom: 1px solid var(--border);
+      position: sticky; top: 0;
+      background: rgba(255,255,255,0.97);
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      z-index: 100;
+    }
+    nav .container { display: flex; justify-content: space-between; align-items: center; }
+    .nav-links { display: flex; gap: 32px; align-items: center; }
+    .nav-links a {
+      color: var(--gray); text-decoration: none;
+      font-size: 0.9rem; font-weight: 500; transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--charcoal); }
+    .nav-links a.active { color: var(--charcoal); font-weight: 600; }
+    .nav-cta {
+      background: var(--charcoal); color: white;
+      padding: 10px 22px; border-radius: 8px; text-decoration: none;
+      font-weight: 600; font-size: 0.88rem; transition: background 0.2s;
+    }
+    .nav-cta:hover { background: var(--blue); }
+
+    /* HAMBURGER */
+    .hamburger {
+      display: none; flex-direction: column; gap: 5px;
+      cursor: pointer; padding: 4px; background: none; border: none;
+    }
+    .hamburger span {
+      display: block; width: 22px; height: 2px;
+      background: var(--charcoal); border-radius: 2px;
+      transition: transform 0.25s, opacity 0.25s;
+    }
+    .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger.open span:nth-child(2) { opacity: 0; }
+    .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    .mobile-menu {
+      display: none; position: fixed;
+      top: 64px; left: 0; right: 0;
+      background: rgba(255,255,255,0.98);
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 24px 20px; z-index: 99;
+      flex-direction: column; gap: 4px;
+    }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a {
+      color: var(--charcoal); text-decoration: none;
+      font-size: 1rem; font-weight: 600;
+      padding: 12px 0; border-bottom: 1px solid var(--border);
+    }
+    .mobile-menu a:last-child {
+      border-bottom: none; background: var(--blue); color: white;
+      padding: 12px 16px; border-radius: 8px;
+      text-align: center; margin-top: 8px;
+    }
+
+    /* FOOTER */
+    footer { border-top: 1px solid var(--border); padding: 28px 0; }
+    footer .container {
+      display: flex; justify-content: space-between;
+      align-items: center; flex-wrap: wrap; gap: 12px;
+    }
+    footer p { color: var(--gray); font-size: 0.82rem; }
+
+    /* STICKY MOBILE CTA */
+    .sticky-mobile-cta { display: none; }
+    @media (max-width: 900px) {
+      .sticky-mobile-cta {
+        display: block; position: fixed;
+        bottom: 0; left: 0; right: 0;
+        background: var(--blue); padding: 14px 24px;
+        z-index: 200; text-align: center;
+        box-shadow: 0 -3px 16px rgba(37,99,235,0.35);
+      }
+      .sticky-mobile-cta a {
+        color: white; text-decoration: none;
+        font-weight: 700; font-size: 1rem; letter-spacing: -0.3px;
+      }
+    }
+
+    /* TESTIMONIALS SECTION */
+    .t-section {
+      background: var(--dark);
+      padding: 88px 0 96px;
+      position: relative;
+      overflow: hidden;
+    }
+    .bg-grid {
+      position: absolute; inset: 0; pointer-events: none; opacity: 0.055;
+      background-image:
+        radial-gradient(circle, #2563EB 1.5px, transparent 1.5px),
+        linear-gradient(rgba(37,99,235,0.45) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(37,99,235,0.45) 1px, transparent 1px);
+      background-size: 60px 60px, 60px 60px, 60px 60px;
+      background-position: 30px 30px, 0 0, 0 0;
+    }
+    .glow {
+      position: absolute; top: -80px; left: 50%;
+      transform: translateX(-50%);
+      width: 900px; height: 500px;
+      background: radial-gradient(ellipse, rgba(37,99,235,0.18) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .t-inner {
+      max-width: 1080px; margin: 0 auto; padding: 0 28px;
+      position: relative; z-index: 1;
+    }
+    .t-tag {
+      text-align: center; font-size: 0.75rem; font-weight: 700; color: #60A5FA;
+      text-transform: uppercase; letter-spacing: 1.8px; margin-bottom: 12px;
+    }
+    .t-title {
+      text-align: center;
+      font-size: clamp(1.7rem, 3vw, 2.4rem);
+      font-weight: 900; color: white; letter-spacing: -1.2px; margin-bottom: 14px;
+    }
+    .t-intro {
+      text-align: center; font-size: 1rem; color: #94A3B8;
+      max-width: 520px; margin: 0 auto 52px; line-height: 1.65;
+    }
+    .t-grid-top {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 18px; margin-bottom: 18px;
+    }
+    .t-grid-bottom {
+      display: grid; grid-template-columns: repeat(2, 1fr);
+      gap: 18px; max-width: 726px; margin: 0 auto;
+    }
+    .t-card {
+      background: #111827; border: 1px solid #1E293B;
+      border-radius: 20px; padding: 30px 28px 26px;
+      display: flex; flex-direction: column;
+    }
+    .t-card.featured {
+      border-color: rgba(37,99,235,0.45);
+      background: linear-gradient(160deg, #111827 0%, #0f1d35 100%);
+      box-shadow: 0 0 60px rgba(37,99,235,0.13), 0 0 20px rgba(37,99,235,0.07);
+    }
+    .quote-mark {
+      font-size: 2.4rem; line-height: 0.75; color: #2563EB;
+      font-family: Georgia, serif; opacity: 0.7; margin-bottom: 10px;
+    }
+    .t-text {
+      font-size: 1rem; color: #CBD5E1;
+      line-height: 1.78; flex: 1; margin-bottom: 26px;
+    }
+    .t-text strong { color: #F1F5F9; }
+    .author-pill {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: #1E293B; border: 1px solid #334155;
+      border-radius: 100px; padding: 7px 14px 7px 7px;
+      align-self: flex-start; max-width: 100%;
+    }
+    .av {
+      width: 34px; height: 34px; border-radius: 50%;
+      background: linear-gradient(135deg, #2563EB, #1d4ed8);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.72rem; font-weight: 800; color: white; flex-shrink: 0;
+    }
+    .av-photo {
+      width: 34px; height: 34px; border-radius: 50%;
+      object-fit: cover; flex-shrink: 0;
+    }
+    .av-info { min-width: 0; }
+    .av-name { font-size: 0.78rem; font-weight: 700; color: white; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .av-role { font-size: 0.68rem; color: #64748B; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .pill-logo { height: 18px; width: auto; flex-shrink: 0; opacity: 0.8; filter: brightness(0) invert(1); margin-left: 2px; }
+    .pill-logo-dark { height: 18px; width: auto; flex-shrink: 0; opacity: 0.75; filter: brightness(0) invert(1); margin-left: 2px; }
+    .pill-logo-screen { height: 48px; width: auto; flex-shrink: 0; mix-blend-mode: screen; filter: contrast(1.5) brightness(2); opacity: 1; margin-left: 4px; }
+
+    /* CTA */
+    .t-cta-wrap { margin-top: 56px; text-align: center; }
+    .t-cta-text { font-size: 1.05rem; color: #94A3B8; margin-bottom: 20px; }
+    .btn-cta {
+      display: inline-flex; align-items: center;
+      background: #2563EB; color: white;
+      font-size: 1rem; font-weight: 700;
+      padding: 14px 28px; border-radius: 10px;
+      text-decoration: none; transition: background 0.2s, transform 0.15s;
+    }
+    .btn-cta:hover { background: #1d4ed8; transform: translateY(-1px); }
+
+    /* MOBILE */
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .nav-cta { display: none; }
+      .hamburger { display: flex; }
+      .brand-logo { height: 44px; }
+      .footer-logo { height: 40px; }
+      .t-grid-top { grid-template-columns: 1fr; }
+      .t-grid-bottom { grid-template-columns: 1fr; max-width: 100%; }
+      .t-section { padding: 56px 0 72px; }
+    }
+    @media (max-width: 560px) {
+      .container, .t-inner { padding: 0 20px; }
+      .t-card { padding: 24px 20px 20px; }
+      .t-text { font-size: 0.95rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="container">
+      <a href="index.html" class="brand">
+        <img src="logo-face.jpg" alt="AutomIA - Consulente AI per PMI italiane" class="brand-logo" width="176" height="68">
+      </a>
+      <div class="nav-links">
+        <a href="index.html#come-lavoro">Come lavoro</a>
+        <a href="index.html#cosa-faccio">Servizi</a>
+        <a href="index.html#prezzi">Prezzi</a>
+        <a href="index.html#chi-sono">Chi sono</a>
+        <a href="testimonianze.html" class="active">Clienti</a>
+      </div>
+      <a href="prenota.html" class="nav-cta" onclick="return openCalendly('https://calendly.com/automiatech-info')">Prima parliamoci →</a>
+      <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Apri menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MENU MOBILE -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html#come-lavoro" onclick="closeMenu()">Come lavoro</a>
+    <a href="index.html#cosa-faccio" onclick="closeMenu()">Servizi</a>
+    <a href="index.html#prezzi" onclick="closeMenu()">Prezzi</a>
+    <a href="index.html#chi-sono" onclick="closeMenu()">Chi sono</a>
+    <a href="prenota.html" onclick="return openCalendly('https://calendly.com/automiatech-info')">Parliamo →</a>
+  </div>
+
+  <!-- TESTIMONIANZE -->
+  <section class="t-section">
+    <div class="bg-grid"></div>
+    <div class="glow"></div>
+    <div class="t-inner">
+
+      <div class="t-tag">Esperienze reali</div>
+      <h1 class="t-title">Cosa dicono i clienti</h1>
+      <p class="t-intro">Settori diversi, punti di partenza diversi — chi era curioso di capire, chi aveva qualcosa di concreto da risolvere.</p>
+
+      <!-- RIGA 1 -->
+      <div class="t-grid-top">
+
+        <!-- Luigi B. · Antica Ferramenta Padova -->
+        <div class="t-card featured">
+          <div class="quote-mark">"</div>
+          <p class="t-text">Avevo sentito parlare di AI ovunque ma non capivo cosa c'entrava con la mia ferramenta. La sessione mi ha aperto gli occhi — <strong>adesso l'inventario lo gestisco in metà del tempo</strong> e ho capito dove vale investire e dove è meglio aspettare.</p>
+          <div class="author-pill">
+            <div class="av">LB</div>
+            <div class="av-info">
+              <div class="av-name">Luigi B.</div>
+              <div class="av-role">Antica Ferramenta · Padova</div>
+            </div>
+            <img class="pill-logo" src="logo-antica-ferramenta.png" alt="" loading="lazy">
+          </div>
+        </div>
+
+        <!-- Alla Grotta · Zelarino (VE) -->
+        <div class="t-card">
+          <div class="quote-mark">"</div>
+          <p class="t-text">Pubblicare sui social era sempre l'ultima cosa che riuscivamo a fare in settimana. Abbiamo impostato un sistema che prepara i contenuti e li pubblica in automatico — <strong>tre settimane di post programmate in meno di un'ora</strong>. Senza dover stare lì ogni giorno.</p>
+          <div class="author-pill">
+            <div class="av">GR</div>
+            <div class="av-info">
+              <div class="av-name">Alla Grotta Risto-Pub</div>
+              <div class="av-role">Zelarino · Venezia</div>
+            </div>
+            <img class="pill-logo-screen" src="logo-alla-grotta.png" alt="" loading="lazy">
+          </div>
+        </div>
+
+        <!-- Andrea G. · Consulenza Fiscale · Mantova -->
+        <div class="t-card">
+          <div class="quote-mark">"</div>
+          <p class="t-text">Decine di clienti con scadenze diverse — tenere tutto sotto controllo era diventato un problema serio. Il followup adesso gira da solo — <strong>zero scadenze perse</strong> dall'inizio dell'anno. Semplice, ma cambia tutto.</p>
+          <div class="author-pill">
+            <div class="av">AG</div>
+            <div class="av-info">
+              <div class="av-name">Andrea G.</div>
+              <div class="av-role">Consulenza Fiscale e Tributaria · Mantova</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- RIGA 2 -->
+      <div class="t-grid-bottom">
+
+        <!-- Traslochi Pamio · Mestre -->
+        <div class="t-card">
+          <div class="quote-mark">"</div>
+          <p class="t-text">Ogni preventivo era una telefonata, poi una mail, poi un'altra telefonata. Abbiamo cambiato il processo di comunicazione — <strong>rispondiamo in meno di 30 minuti</strong> e i clienti se ne accorgono subito.</p>
+          <div class="author-pill">
+            <div class="av">TP</div>
+            <div class="av-info">
+              <div class="av-name">Traslochi Pamio</div>
+              <div class="av-role">Mestre · Venezia</div>
+            </div>
+            <img class="pill-logo-dark" src="logo-pamio.png" alt="" loading="lazy">
+          </div>
+        </div>
+
+        <!-- Hotel Ridente · Jesolo -->
+        <div class="t-card">
+          <div class="quote-mark">"</div>
+          <p class="t-text">In alta stagione le richieste degli ospiti non si fermano mai. Abbiamo capito quali messaggi automatizzare e quali no — <strong>il 60% delle email ora escono in automatico</strong> e non abbiamo perso nessun ospite per un'attesa troppo lunga.</p>
+          <div class="author-pill">
+            <div class="av">HR</div>
+            <div class="av-info">
+              <div class="av-name">Hotel Ridente</div>
+              <div class="av-role">Lido di Jesolo · Venezia</div>
+            </div>
+            <img class="pill-logo-dark" src="logo-ridente.png" alt="" loading="lazy">
+          </div>
+        </div>
+
+      </div>
+
+      <!-- CTA -->
+      <div class="t-cta-wrap">
+        <p class="t-cta-text">Hai una domanda su cosa può fare l'AI nella tua realtà?</p>
+        <a href="prenota.html" class="btn-cta" onclick="return openCalendly('https://calendly.com/automiatech-info')">Prima parliamoci →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <a href="index.html" class="brand">
+        <img src="logo-face.jpg" alt="AutomIA - Consulente AI per PMI italiane" class="footer-logo" width="150" height="58">
+      </a>
+      <p>© 2026 AutomIA · <a href="privacy.html" target="_blank" rel="noopener noreferrer" style="color:var(--gray);">Privacy Policy</a></p>
+    </div>
+  </footer>
+
+  <!-- COOKIE BANNER -->
+  <div id="cookie-banner" style="display:none;">
+    <p>Questo sito utilizza cookie tecnici per il funzionamento e Google Fonts per la tipografia. Nessun cookie di profilazione. <a href="privacy.html">Privacy Policy</a></p>
+    <div class="cookie-actions">
+      <button onclick="acceptCookies()">Accetta</button>
+      <button class="cookie-refuse" onclick="refuseCookies()">Rifiuta non essenziali</button>
+    </div>
+  </div>
+  <style>
+    #cookie-banner {
+      position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%);
+      background: var(--charcoal); color: white;
+      padding: 18px 24px; border-radius: 12px;
+      max-width: 620px; width: calc(100% - 48px);
+      display: flex; align-items: center; gap: 20px;
+      z-index: 9999; box-shadow: 0 8px 32px rgba(0,0,0,0.25); flex-wrap: wrap;
+    }
+    #cookie-banner p { font-size: 0.85rem; color: #CBD5E1; line-height: 1.5; flex: 1; min-width: 200px; }
+    #cookie-banner p a { color: #60A5FA; }
+    .cookie-actions { display: flex; gap: 10px; flex-shrink: 0; }
+    .cookie-actions button {
+      padding: 9px 18px; border-radius: 7px; font-size: 0.85rem;
+      font-weight: 600; font-family: 'Inter', sans-serif;
+      cursor: pointer; border: none; background: var(--blue); color: white; transition: opacity 0.2s;
+    }
+    .cookie-actions button:hover { opacity: 0.85; }
+    .cookie-actions .cookie-refuse { background: transparent; border: 1.5px solid #475569; color: #94A3B8; }
+  </style>
+
+  <!-- Sticky mobile CTA -->
+  <div class="sticky-mobile-cta">
+    <a href="prenota.html" onclick="return openCalendly('https://calendly.com/automiatech-info')">Prima parliamoci — prenota subito →</a>
+  </div>
+
+  <script>
+    function openCalendly(url) {
+      if (typeof Calendly !== 'undefined') {
+        Calendly.initPopupWidget({ url: url });
+      } else {
+        window.location.href = 'prenota.html';
+      }
+      return false;
+    }
+    function toggleMenu() {
+      const menu = document.getElementById('mobileMenu');
+      const btn = document.getElementById('hamburger');
+      const isOpen = menu.classList.toggle('open');
+      btn.classList.toggle('open');
+      btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      btn.setAttribute('aria-label', isOpen ? 'Chiudi menu' : 'Apri menu');
+    }
+    function closeMenu() {
+      document.getElementById('mobileMenu').classList.remove('open');
+      const btn = document.getElementById('hamburger');
+      btn.classList.remove('open');
+      btn.setAttribute('aria-expanded', 'false');
+      btn.setAttribute('aria-label', 'Apri menu');
+    }
+  </script>
+
+  <script>
+    function initGA4() {
+      if (window._ga4Loaded) return;
+      window._ga4Loaded = true;
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-0TFQWDM4DE';
+      document.head.appendChild(s);
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      window.gtag = gtag;
+      gtag('js', new Date());
+      gtag('config', 'G-0TFQWDM4DE');
+    }
+    (function() {
+      var choice = localStorage.getItem('cookie-choice');
+      if (!choice) {
+        document.getElementById('cookie-banner').style.display = 'flex';
+      } else if (choice === 'accepted') {
+        initGA4();
+      }
+    })();
+    function acceptCookies() {
+      localStorage.setItem('cookie-choice', 'accepted');
+      document.getElementById('cookie-banner').style.display = 'none';
+      initGA4();
+    }
+    function refuseCookies() {
+      localStorage.setItem('cookie-choice', 'refused');
+      document.getElementById('cookie-banner').style.display = 'none';
+    }
+  </script>
+
+</body>
+</html>
