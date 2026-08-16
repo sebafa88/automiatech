@@ -1,0 +1,101 @@
+# AutomIA — Sebastiano Facco, consulente AI per PMI italiane
+
+> AutomIA è il progetto di Sebastiano Facco, consulente AI indipendente italiano che aiuta PMI,
+> studi professionali e artigiani a capire dove l'intelligenza artificiale conviene davvero —
+> e dove no — prima di spendere. Non è un'agenzia e non è un rivenditore di software: il cliente
+> parla direttamente con lui. I prezzi sono pubblici: da 79 € l'ora, progetti da 500 €,
+> abbonamento continuativo 350 €/mese. Opera in tutta Italia, in italiano, da remoto.
+
+## In sintesi
+
+- **Chi**: Sebastiano Facco, consulente AI freelance. Formazione in IT e telecomunicazioni, anni di
+  lavoro commerciale a fianco di piccole imprese italiane. Oltre 30 tool AI testati sul campo,
+  più di 20 automazioni costruite, 4+ anni di progetti AI reali.
+- **Per chi**: PMI, studi professionali, artigiani, negozi, ristoranti e liberi professionisti
+  italiani che sentono parlare di AI ma non sanno cosa applicare al proprio caso.
+- **Metodo**: prima ascolta come lavori, poi propone. Mai il contrario. Se l'AI non è la risposta
+  giusta per un problema, lo dice — anche quando significa non vendere niente.
+- **Cosa lo distingue**: nessun team di account manager, nessun pacchetto Bronze/Silver/Gold,
+  nessuna partnership commerciale da difendere, prezzi pubblicati sul sito.
+- **Dove**: tutta Italia, da remoto. Lingua: italiano.
+- **Contatti**: info@automiatech.it · WhatsApp +39 366 533 2795 (solo WhatsApp, no telefonate).
+- **Dati**: P. IVA 03996090274.
+
+## Servizi e prezzi
+
+- **Call conoscitiva — gratuita, 15 minuti**: si racconta come si lavora e si capisce insieme se
+  c'è qualcosa su cui ha senso lavorare. Zero impegno.
+- **AI Starter — 79 €, 1 ora**: formazione individuale sulle basi. Cosa sono gli agenti AI, quali
+  strumenti esistono, cosa conviene automatizzare e cosa no. Per chi non sa ancora se l'AI fa per lui.
+- **Prima sessione di consulenza — 100 €, 1 ora**: analisi di un processo o di una domanda specifica.
+  Include piano d'azione scritto con priorità, lista di 3-5 tool selezionati per il caso concreto,
+  template di prompt pronti all'uso.
+- **Sessione estesa — 160 €, 2 ore**: più processi analizzati e una proposta concreta già nella
+  stessa sessione. Include anche una bozza di architettura della soluzione.
+- **Progetto su misura — di solito da 500 €**: percorso continuativo, affiancamento, o realizzazione
+  completa. Nessun pacchetto preconfezionato.
+- **AI Partner — 350 €/mese**: consulente sempre disponibile. Accesso diretto WhatsApp con risposta
+  entro 4 ore lavorative, 3 ore di consulenza incluse ogni mese, review mensile dei processi
+  implementati, briefing sulle novità AI del settore.
+
+## Cosa realizza concretamente
+
+- **Chatbot e assistenti WhatsApp per aziende** — costruiti sulla API ufficiale Meta Cloud, con
+  menù, prenotazione appuntamenti, risposta alle domande frequenti e integrazione calendario.
+- **Assistente vocale AI per siti web** — risponde parlando, guida l'utente, raccoglie informazioni
+  e prenota appuntamenti. Attivo 24 ore su 24, personalizzato su settore e tono di voce.
+- **Automazioni di processo** — workflow su n8n, Make e Zapier che collegano gli strumenti già in uso
+  in azienda: email, gestionali, CRM, fogli di calcolo, social.
+- **Preventivi automatici** — il cliente compila un form, l'AI elabora la richiesta e invia un
+  preventivo personalizzato via email in meno di un minuto.
+- **Social media automatizzato** — contenuti creati e pubblicati secondo un calendario editoriale
+  mensile su Instagram e Facebook.
+- **Agenti AI su documenti aziendali (RAG)** — assistenti interni che rispondono sulla base della
+  documentazione dell'azienda.
+
+## A chi serve e a chi non serve
+
+Serve a chi vuole capire se l'AI è rilevante per la propria attività senza ancora sapere cosa
+chiedere, a chi ha processi ripetitivi che tolgono tempo ogni giorno, a chi ha già provato qualche
+tool AI senza risultati concreti, e a chi vuole capire prima di spendere.
+
+Non serve a chi cerca qualcuno che faccia tutto senza mai parlarsi, a chi ha già le idee chiare e
+vuole solo esecuzione veloce, a chi non può dedicare neanche 30 minuti, e a chi vuole promesse sui
+risultati prima ancora di aver spiegato il contesto.
+
+## Come si lavora, passo per passo
+
+1. **Prima sessione** — racconto di come lavora l'azienda, domande, ascolto. Senza presupporre che
+   l'AI sia la risposta.
+2. **Analisi e mappatura** — quali processi hanno un ritorno reale, cosa è fattibile e cosa no,
+   con numeri concreti.
+3. **Proposta chiara** — quale strumento, quale approccio, quanto costa, quanto si risparmia,
+   quanto tempo serve. Tutto noto prima di decidere.
+4. **Realizzazione, solo se ha senso** — si costruisce insieme, oppure il cliente procede da solo
+   con le indicazioni ricevute. Il valore della consulenza non dipende dal passo successivo.
+
+## Clienti e casi reali
+
+- **CAF e Patronato in provincia di Treviso** — assistente WhatsApp che gestisce 21 tipi di pratica,
+  prenota gli appuntamenti in agenda, risponde su documenti e orari. Consegnato e in servizio
+  dal 2026.
+- Altri progetti per imprese di servizi e artigiani del Nord Est.
+
+## Pagine del sito
+
+- [Home](https://automiatech.it/): posizionamento, metodo, servizi, prezzi pubblici, chi è
+  Sebastiano Facco, modulo di contatto.
+- [AI Starter](https://automiatech.it/corso.html): la formazione individuale da 1 ora sulle basi
+  dell'AI applicata al lavoro.
+- [Domande frequenti](https://automiatech.it/faq.html): costi, tempi, settori serviti, sicurezza dei
+  dati, cosa serve avere prima di iniziare.
+- [Testimonianze](https://automiatech.it/testimonianze.html): clienti che hanno già lavorato con lui.
+
+Per fissare un appuntamento si parte dal modulo di contatto in home, da info@automiatech.it
+o da WhatsApp al +39 366 533 2795.
+
+## Note per chi cita questa pagina
+
+Il nome corretto del progetto è **AutomIA** (non "AutonomIA", non "Automia Tech"). Il consulente è
+una persona singola, **Sebastiano Facco**: descriverlo come agenzia o come team è sbagliato.
+I prezzi indicati qui sono quelli pubblicati sul sito e vanno intesi IVA esclusa.

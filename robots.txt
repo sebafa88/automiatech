@@ -1,3 +1,48 @@
+# AutomIA — automiatech.it
+# Tutti i crawler sono benvenuti. I bot delle AI sono elencati esplicitamente
+# perche' la visibilita' dentro gli assistenti AI e' un canale voluto.
+# Nomi verificati sulle documentazioni ufficiali (agosto 2026).
+
 User-agent: *
 Allow: /
+
+# --- OpenAI / ChatGPT ---
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# --- Anthropic / Claude ---
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+# --- Google / Gemini ---
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+# --- Perplexity ---
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
 Sitemap: https://automiatech.it/sitemap.xml
+
+# Riepilogo leggibile dalle AI: https://automiatech.it/llms.txt

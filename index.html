@@ -1795,24 +1795,211 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "AutomIA",
-    "description": "Consulente AI freelance per PMI e professionisti italiani. Consulenze AI, automazioni di processo, agenti AI personalizzati.",
-    "url": "https://automiatech.it",
-    "telephone": "+393665332795",
-    "email": "info@automiatech.it",
-    "founder": {
-      "@type": "Person",
-      "name": "Sebastiano Facco",
-      "jobTitle": "Consulente AI",
-      "url": "https://automiatech.it"
-    },
-    "areaServed": {
-      "@type": "Country",
-      "name": "Italia"
-    },
-    "serviceType": ["Consulenza AI", "Automazione di processo", "Agenti AI", "Chatbot aziendale", "Consulenza intelligenza artificiale PMI"],
-    "priceRange": "€100–€350"
+    "@graph": [
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://automiatech.it/#business",
+        "name": "AutomIA",
+        "alternateName": "AutomIA — Sebastiano Facco",
+        "description": "Consulente AI freelance per PMI, studi professionali e artigiani italiani. Consulenza per capire dove l'AI conviene davvero, progettazione e realizzazione di agenti AI, chatbot WhatsApp e automazioni di processo. Non è un'agenzia: si parla direttamente con Sebastiano Facco. Prezzi pubblici da 79 € l'ora.",
+        "slogan": "Prima ascolto. Poi propongo. Non il contrario.",
+        "url": "https://automiatech.it/",
+        "logo": "https://automiatech.it/logo-face.jpg",
+        "image": "https://automiatech.it/og-image.jpg",
+        "telephone": "+393665332795",
+        "email": "info@automiatech.it",
+        "vatID": "IT03996090274",
+        "priceRange": "€79–€350",
+        "currenciesAccepted": "EUR",
+        "sameAs": ["https://www.linkedin.com/company/automiatech-ai/"],
+        "founder": { "@id": "https://automiatech.it/#sebastiano" },
+        "employee": { "@id": "https://automiatech.it/#sebastiano" },
+        "areaServed": { "@type": "Country", "name": "Italia" },
+        "availableLanguage": { "@type": "Language", "name": "Italiano", "alternateName": "it" },
+        "knowsAbout": [
+          "Consulenza intelligenza artificiale per PMI",
+          "Agenti AI autonomi",
+          "Chatbot WhatsApp per aziende",
+          "WhatsApp Business API",
+          "Automazione di processo con n8n, Make e Zapier",
+          "RAG e basi di conoscenza aziendali",
+          "Prompt engineering",
+          "Integrazione AI con CRM e gestionali",
+          "Preventivi automatici",
+          "Assistenti vocali AI per siti web"
+        ],
+        "serviceType": [
+          "Consulenza AI",
+          "Consulenza intelligenza artificiale PMI",
+          "Automazione di processo",
+          "Agenti AI",
+          "Chatbot aziendale",
+          "Chatbot WhatsApp",
+          "Formazione AI per imprese"
+        ],
+        "contactPoint": [{
+          "@type": "ContactPoint",
+          "contactType": "Richiesta informazioni e preventivi",
+          "email": "info@automiatech.it",
+          "telephone": "+393665332795",
+          "areaServed": "IT",
+          "availableLanguage": "Italian"
+        }],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Consulenza e realizzazione AI",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "name": "Prima call conoscitiva",
+              "description": "15 minuti gratuiti per raccontare come lavori e capire insieme se c'è qualcosa su cui posso aiutarti. Zero impegno.",
+              "price": "0",
+              "priceCurrency": "EUR",
+              "availability": "https://schema.org/InStock",
+              "url": "https://automiatech.it/#contatti",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Call conoscitiva gratuita",
+                "serviceType": "Consulenza AI",
+                "provider": { "@id": "https://automiatech.it/#business" }
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "AI Starter — formazione 1:1",
+              "description": "1 ora per capire le basi dell'AI: cosa sono gli agenti, quali tool esistono, cosa conviene automatizzare e cosa no. Pensato per chi non sa ancora se l'AI fa per lui.",
+              "price": "79",
+              "priceCurrency": "EUR",
+              "availability": "https://schema.org/InStock",
+              "url": "https://automiatech.it/corso.html",
+              "eligibleDuration": { "@type": "QuantitativeValue", "value": 1, "unitCode": "HUR" },
+              "itemOffered": {
+                "@type": "Service",
+                "name": "AI Starter — formazione AI individuale",
+                "serviceType": "Formazione AI",
+                "provider": { "@id": "https://automiatech.it/#business" }
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Prima sessione di consulenza AI",
+              "description": "1 ora dedicata al tuo caso: analizziamo un processo o una domanda specifica. Include piano d'azione scritto, lista di 3-5 tool selezionati e template di prompt pronti.",
+              "price": "100",
+              "priceCurrency": "EUR",
+              "availability": "https://schema.org/InStock",
+              "url": "https://automiatech.it/#prezzi",
+              "eligibleDuration": { "@type": "QuantitativeValue", "value": 1, "unitCode": "HUR" },
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Consulenza AI per PMI — sessione da 1 ora",
+                "serviceType": "Consulenza AI",
+                "provider": { "@id": "https://automiatech.it/#business" }
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Sessione estesa di consulenza AI",
+              "description": "2 ore per analizzare più processi e arrivare a una proposta concreta nella stessa sessione. Include piano d'azione, tool confrontati, template di prompt e bozza di architettura.",
+              "price": "160",
+              "priceCurrency": "EUR",
+              "availability": "https://schema.org/InStock",
+              "url": "https://automiatech.it/#prezzi",
+              "eligibleDuration": { "@type": "QuantitativeValue", "value": 2, "unitCode": "HUR" },
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Consulenza AI per PMI — sessione da 2 ore",
+                "serviceType": "Consulenza AI",
+                "provider": { "@id": "https://automiatech.it/#business" }
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Progetto su misura",
+              "description": "Percorso continuativo, affiancamento o realizzazione di agenti AI, chatbot e automazioni su misura. Proposta costruita sul caso specifico.",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "minPrice": "500",
+                "priceCurrency": "EUR",
+                "valueAddedTaxIncluded": false
+              },
+              "availability": "https://schema.org/InStock",
+              "url": "https://automiatech.it/#contatti",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Realizzazione di agenti AI, chatbot e automazioni",
+                "serviceType": "Realizzazione soluzioni AI",
+                "provider": { "@id": "https://automiatech.it/#business" }
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "AI Partner — abbonamento mensile",
+              "description": "Consulente AI sempre disponibile: accesso diretto WhatsApp con risposta entro 4 ore lavorative, 3 ore di consulenza incluse ogni mese, review mensile dei processi e briefing sulle novità AI del settore.",
+              "price": "350",
+              "priceCurrency": "EUR",
+              "availability": "https://schema.org/InStock",
+              "url": "https://automiatech.it/#prezzi",
+              "priceSpecification": {
+                "@type": "UnitPriceSpecification",
+                "price": "350",
+                "priceCurrency": "EUR",
+                "billingIncrement": 1,
+                "unitCode": "MON"
+              },
+              "itemOffered": {
+                "@type": "Service",
+                "name": "AI Partner — consulenza AI continuativa",
+                "serviceType": "Consulenza AI continuativa",
+                "provider": { "@id": "https://automiatech.it/#business" }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://automiatech.it/#sebastiano",
+        "name": "Sebastiano Facco",
+        "jobTitle": "Consulente AI",
+        "description": "Consulente AI indipendente per PMI, studi professionali e artigiani italiani. Formazione in IT e telecomunicazioni, oltre 30 tool AI testati sul campo e più di 20 automazioni costruite. Lavora da solo: nessuna agenzia, nessun intermediario.",
+        "url": "https://automiatech.it/",
+        "image": "https://automiatech.it/photo.jpg",
+        "email": "info@automiatech.it",
+        "telephone": "+393665332795",
+        "nationality": { "@type": "Country", "name": "Italia" },
+        "worksFor": { "@id": "https://automiatech.it/#business" },
+        "sameAs": ["https://www.linkedin.com/company/automiatech-ai/"],
+        "knowsLanguage": { "@type": "Language", "name": "Italiano", "alternateName": "it" },
+        "knowsAbout": [
+          "Intelligenza artificiale applicata alle PMI",
+          "Agenti AI",
+          "Chatbot WhatsApp con API ufficiale Meta",
+          "Automazioni n8n, Make e Zapier",
+          "Claude, ChatGPT e Gemini per le aziende",
+          "Analisi e mappatura dei processi aziendali"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://automiatech.it/#website",
+        "url": "https://automiatech.it/",
+        "name": "AutomIA",
+        "description": "Sito di AutomIA, consulente AI per PMI e professionisti italiani.",
+        "inLanguage": "it-IT",
+        "publisher": { "@id": "https://automiatech.it/#business" }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://automiatech.it/#webpage",
+        "url": "https://automiatech.it/",
+        "name": "AutomIA · Consulente AI per PMI italiane | Sebastiano Facco",
+        "description": "Consulente AI freelance per PMI e professionisti italiani. Capisci dove l'AI fa davvero la differenza nella tua attività, prima di spendere.",
+        "inLanguage": "it-IT",
+        "isPartOf": { "@id": "https://automiatech.it/#website" },
+        "about": { "@id": "https://automiatech.it/#business" },
+        "primaryImageOfPage": "https://automiatech.it/og-image.jpg"
+      }
+    ]
   }
   </script>
 
