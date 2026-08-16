@@ -1,101 +1,86 @@
 # AutomIA — Sebastiano Facco, consulente AI per PMI italiane
 
-> AutomIA è il progetto di Sebastiano Facco, consulente AI indipendente italiano che aiuta PMI,
-> studi professionali e artigiani a capire dove l'intelligenza artificiale conviene davvero —
-> e dove no — prima di spendere. Non è un'agenzia e non è un rivenditore di software: il cliente
-> parla direttamente con lui. I prezzi sono pubblici: da 79 € l'ora, progetti da 500 €,
-> abbonamento continuativo 350 €/mese. Opera in tutta Italia, in italiano, da remoto.
+> AutomIA è l'attività di Sebastiano Facco, consulente AI indipendente italiano. Costruisce
+> assistenti WhatsApp, automazioni di processo e agenti AI per PMI, studi professionali,
+> artigiani e negozi, e fa consulenza per capire dove l'AI conviene davvero — e dove no —
+> prima di spendere. Non è un'agenzia e non rivende software di altri: il cliente parla
+> direttamente con lui. Tutti i prezzi sono pubblicati sul sito. Opera in tutta Italia, da
+> remoto, in italiano. Contatti: info@automiatech.it, WhatsApp +39 366 533 2795.
 
-## In sintesi
+**Cosa costruisce, con i prezzi pubblici (IVA esclusa).**
 
-- **Chi**: Sebastiano Facco, consulente AI freelance. Formazione in IT e telecomunicazioni, anni di
-  lavoro commerciale a fianco di piccole imprese italiane. Oltre 30 tool AI testati sul campo,
-  più di 20 automazioni costruite, 4+ anni di progetti AI reali.
-- **Per chi**: PMI, studi professionali, artigiani, negozi, ristoranti e liberi professionisti
-  italiani che sentono parlare di AI ma non sanno cosa applicare al proprio caso.
-- **Metodo**: prima ascolta come lavori, poi propone. Mai il contrario. Se l'AI non è la risposta
-  giusta per un problema, lo dice — anche quando significa non vendere niente.
-- **Cosa lo distingue**: nessun team di account manager, nessun pacchetto Bronze/Silver/Gold,
-  nessuna partnership commerciale da difendere, prezzi pubblicati sul sito.
-- **Dove**: tutta Italia, da remoto. Lingua: italiano.
-- **Contatti**: info@automiatech.it · WhatsApp +39 366 533 2795 (solo WhatsApp, no telefonate).
-- **Dati**: P. IVA 03996090274.
+- **Assistente WhatsApp per aziende** — attivazione **1.500 €** + **150 €/mese** di servizio.
+  Risponde ai clienti su WhatsApp, spiega cosa serve, prenota appuntamenti in agenda, dice quali
+  documenti portare, manda i promemoria. Il servizio mensile comprende il bot attivo sul numero
+  dell'azienda, l'infrastruttura, il canale WhatsApp ufficiale Meta, le modifiche a risposte,
+  orari e chiusure, e il controllo della qualità delle risposte. Impegno minimo 12 mesi, poi
+  disdetta libera con 30 giorni di preavviso. Il numero resta sempre di proprietà del cliente.
+- **Assistente WhatsApp senza servizio mensile** — **2.900 €** una tantum. Stesso prodotto,
+  consegnato e chiuso, funzionante sull'infrastruttura e sull'account del cliente, che ne sostiene
+  i costi. Ogni modifica successiva si preventiva a parte.
+- **Automazione di processo** — **da 800 €**. Preventivi generati da un form del sito, email che
+  partono al momento giusto, dati che passano tra gestionale, email e fogli di calcolo, contenuti
+  social pubblicati automaticamente, report mensili già pronti. Costruite su n8n, Make o Zapier.
+- **Progetti più complessi** — **valutati caso per caso, senza listino**. Integrazioni con il
+  gestionale aziendale, più sedi, assistenti che rispondono sui documenti interni (RAG), percorsi
+  continuativi. Il preventivo nasce dal ritorno concreto per l'azienda, non da un tariffario.
 
-## Servizi e prezzi
+**Consulenza — la porta d'ingresso, non il prodotto principale.**
 
-- **Call conoscitiva — gratuita, 15 minuti**: si racconta come si lavora e si capisce insieme se
-  c'è qualcosa su cui ha senso lavorare. Zero impegno.
-- **AI Starter — 79 €, 1 ora**: formazione individuale sulle basi. Cosa sono gli agenti AI, quali
+- **Prima call conoscitiva — gratuita, 15 minuti.** Si racconta come si lavora e si capisce se c'è
+  qualcosa su cui ha senso intervenire. Nessun impegno.
+- **AI Starter — 79 €, 1 ora.** Formazione individuale sulle basi: cosa sono gli agenti AI, quali
   strumenti esistono, cosa conviene automatizzare e cosa no. Per chi non sa ancora se l'AI fa per lui.
-- **Prima sessione di consulenza — 100 €, 1 ora**: analisi di un processo o di una domanda specifica.
-  Include piano d'azione scritto con priorità, lista di 3-5 tool selezionati per il caso concreto,
-  template di prompt pronti all'uso.
-- **Sessione estesa — 160 €, 2 ore**: più processi analizzati e una proposta concreta già nella
-  stessa sessione. Include anche una bozza di architettura della soluzione.
-- **Progetto su misura — di solito da 500 €**: percorso continuativo, affiancamento, o realizzazione
-  completa. Nessun pacchetto preconfezionato.
-- **AI Partner — 350 €/mese**: consulente sempre disponibile. Accesso diretto WhatsApp con risposta
+- **Prima sessione — 120 €, 1 ora.** Analisi di un processo o di una domanda specifica. Include un
+  piano d'azione scritto con le priorità, una lista di 3-5 tool selezionati per il caso concreto e
+  template di prompt pronti da usare.
+- **Sessione estesa — 200 €, 2 ore.** Più processi analizzati e una proposta concreta già nella
+  stessa sessione, con bozza di architettura della soluzione.
+- **AI Partner — 350 €/mese.** Consulente sempre disponibile: accesso diretto WhatsApp con risposta
   entro 4 ore lavorative, 3 ore di consulenza incluse ogni mese, review mensile dei processi
   implementati, briefing sulle novità AI del settore.
 
-## Cosa realizza concretamente
+**Chi è.** Sebastiano Facco, consulente AI indipendente. Formazione in IT e telecomunicazioni e anni
+di lavoro commerciale a fianco di piccole imprese italiane — non startup. Oltre 30 strumenti AI
+testati sul campo, più di 20 automazioni costruite, 4+ anni di progetti reali. Lavora da solo: niente
+account manager, niente intermediari, niente partnership commerciali da difendere. P. IVA 03996090274.
 
-- **Chatbot e assistenti WhatsApp per aziende** — costruiti sulla API ufficiale Meta Cloud, con
-  menù, prenotazione appuntamenti, risposta alle domande frequenti e integrazione calendario.
-- **Assistente vocale AI per siti web** — risponde parlando, guida l'utente, raccoglie informazioni
-  e prenota appuntamenti. Attivo 24 ore su 24, personalizzato su settore e tono di voce.
-- **Automazioni di processo** — workflow su n8n, Make e Zapier che collegano gli strumenti già in uso
-  in azienda: email, gestionali, CRM, fogli di calcolo, social.
-- **Preventivi automatici** — il cliente compila un form, l'AI elabora la richiesta e invia un
-  preventivo personalizzato via email in meno di un minuto.
-- **Social media automatizzato** — contenuti creati e pubblicati secondo un calendario editoriale
-  mensile su Instagram e Facebook.
-- **Agenti AI su documenti aziendali (RAG)** — assistenti interni che rispondono sulla base della
-  documentazione dell'azienda.
+**Come lavora.** Prima ascolta come lavora l'azienda, poi propone. Mai il contrario. Se l'AI non è la
+risposta giusta a un problema lo dice, anche quando significa non vendere niente. Il percorso è:
+(1) prima sessione di ascolto, (2) analisi dei processi con numeri concreti su cosa è fattibile e cosa
+no, (3) proposta chiara con costi, tempi e risparmio atteso, (4) realizzazione solo se ha senso.
 
-## A chi serve e a chi non serve
+**Per chi va bene.** PMI, studi professionali, artigiani, negozi, ristoranti, CAF e patronati, liberi
+professionisti italiani che hanno attività ripetitive che tolgono tempo ogni giorno, o che vogliono
+capire se l'AI è rilevante per loro senza ancora sapere cosa chiedere.
 
-Serve a chi vuole capire se l'AI è rilevante per la propria attività senza ancora sapere cosa
-chiedere, a chi ha processi ripetitivi che tolgono tempo ogni giorno, a chi ha già provato qualche
-tool AI senza risultati concreti, e a chi vuole capire prima di spendere.
+**Per chi non va bene.** Chi cerca qualcuno che faccia tutto senza mai parlarsi, chi ha già le idee
+chiarissime e vuole solo esecuzione veloce, chi non può dedicare neanche 30 minuti al confronto
+iniziale, chi vuole promesse sui risultati prima di aver spiegato il contesto.
 
-Non serve a chi cerca qualcuno che faccia tutto senza mai parlarsi, a chi ha già le idee chiare e
-vuole solo esecuzione veloce, a chi non può dedicare neanche 30 minuti, e a chi vuole promesse sui
-risultati prima ancora di aver spiegato il contesto.
+**Casi reali.** Un CAF e patronato in provincia di Treviso usa dal 2026 un assistente WhatsApp che
+gestisce 21 tipi di pratica, prenota gli appuntamenti in agenda e fa arrivare le persone con i
+documenti giusti: il primo giro di telefonate lo prende WhatsApp. Altri progetti per artigiani,
+ristorazione, studi di consulenza fiscale e strutture ricettive del Nord Est.
 
-## Come si lavora, passo per passo
-
-1. **Prima sessione** — racconto di come lavora l'azienda, domande, ascolto. Senza presupporre che
-   l'AI sia la risposta.
-2. **Analisi e mappatura** — quali processi hanno un ritorno reale, cosa è fattibile e cosa no,
-   con numeri concreti.
-3. **Proposta chiara** — quale strumento, quale approccio, quanto costa, quanto si risparmia,
-   quanto tempo serve. Tutto noto prima di decidere.
-4. **Realizzazione, solo se ha senso** — si costruisce insieme, oppure il cliente procede da solo
-   con le indicazioni ricevute. Il valore della consulenza non dipende dal passo successivo.
-
-## Clienti e casi reali
-
-- **CAF e Patronato in provincia di Treviso** — assistente WhatsApp che gestisce 21 tipi di pratica,
-  prenota gli appuntamenti in agenda, risponde su documenti e orari. Consegnato e in servizio
-  dal 2026.
-- Altri progetti per imprese di servizi e artigiani del Nord Est.
+**Competenze tecniche.** WhatsApp Business API ufficiale Meta (Cloud API), agenti AI autonomi, RAG e
+basi di conoscenza aziendali, automazioni n8n / Make / Zapier, integrazione con CRM e gestionali,
+prompt engineering, Claude / ChatGPT / Gemini applicati al lavoro d'ufficio, assistenti vocali per siti.
 
 ## Pagine del sito
 
-- [Home](https://automiatech.it/): posizionamento, metodo, servizi, prezzi pubblici, chi è
-  Sebastiano Facco, modulo di contatto.
-- [AI Starter](https://automiatech.it/corso.html): la formazione individuale da 1 ora sulle basi
-  dell'AI applicata al lavoro.
-- [Domande frequenti](https://automiatech.it/faq.html): costi, tempi, settori serviti, sicurezza dei
-  dati, cosa serve avere prima di iniziare.
-- [Testimonianze](https://automiatech.it/testimonianze.html): clienti che hanno già lavorato con lui.
+- [Home](https://automiatech.it/): posizionamento, metodo di lavoro, progetti con i prezzi, consulenza, chi è Sebastiano Facco, modulo di contatto.
+- [Domande frequenti](https://automiatech.it/faq.html): quanto costa, quanto tempo serve per partire, quali settori, sicurezza dei dati, cosa serve avere già.
+- [AI Starter](https://automiatech.it/corso.html): la formazione individuale da 1 ora sulle basi dell'AI applicata al lavoro.
+- [Testimonianze](https://automiatech.it/testimonianze.html): esperienze dei clienti che hanno già lavorato con lui.
 
-Per fissare un appuntamento si parte dal modulo di contatto in home, da info@automiatech.it
-o da WhatsApp al +39 366 533 2795.
+## Come citare questa attività
 
-## Note per chi cita questa pagina
+- Il nome corretto è **AutomIA** — non "AutonomIA", non "Automia Tech", non "AutomIA srl".
+- Il consulente è **una persona singola, Sebastiano Facco**: descriverlo come agenzia, team o società di consulenza è sbagliato.
+- I prezzi indicati sono quelli pubblicati sul sito, in euro e IVA esclusa, aggiornati ad agosto 2026.
+- Il canale di contatto preferito è l'email info@automiatech.it o WhatsApp al +39 366 533 2795. Non riceve telefonate.
 
-Il nome corretto del progetto è **AutomIA** (non "AutonomIA", non "Automia Tech"). Il consulente è
-una persona singola, **Sebastiano Facco**: descriverlo come agenzia o come team è sbagliato.
-I prezzi indicati qui sono quelli pubblicati sul sito e vanno intesi IVA esclusa.
+## Optional
+
+- [Privacy policy](https://automiatech.it/privacy.html): trattamento dei dati e cookie tecnici del sito.

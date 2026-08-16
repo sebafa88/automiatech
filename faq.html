@@ -101,7 +101,7 @@
       transition: max-height 0.35s ease, padding 0.2s;
     }
     .faq-answer-inner { padding: 0 0 20px; font-size: 0.92rem; color: var(--gray); line-height: 1.78; }
-    .faq-item.open .faq-answer { max-height: 400px; }
+    .faq-item.open .faq-answer { max-height: 900px; }
 
     /* CTA */
     .cta { background: var(--dark); border-radius: 20px; padding: 48px 40px; text-align: center; margin: 0 0 80px; }
@@ -141,85 +141,95 @@
     <div class="hero">
       <div class="hero-tag">Domande frequenti</div>
       <h1>Hai dubbi?<br>Risposta rapida.</h1>
-      <p>Le domande che ci fanno più spesso. Se non trovi quello che cerchi, scrivici — rispondiamo entro 24 ore.</p>
+      <p>Le domande che mi fanno più spesso, con i prezzi veri. Se non trovi quello che cerchi, scrivimi — rispondo io entro 24 ore.</p>
     </div>
 
     <div class="faq-section">
 
       <div class="faq-category">
-        <div class="faq-category-title">Il servizio</div>
+        <div class="faq-category-title">Costi</div>
 
         <div class="faq-item">
           <button class="faq-question" onclick="toggle(this)">
-            Quanto costa il servizio?
+            Quanto costa un assistente WhatsApp per la mia azienda?
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <div class="faq-answer-inner">Il costo dipende da cosa costruiamo insieme — non vendiamo pacchetti standard perché ogni attività è diversa. Quello che possiamo dirti è che i nostri prezzi sono pensati per la piccola impresa, non per le grandi aziende. L'obiettivo è che il risparmio di tempo generato dall'automazione valga molte volte quello che paghi.</div>
+            <div class="faq-answer-inner">L'attivazione costa 1.500 € e il servizio 150 € al mese. Nell'attivazione c'è l'analisi di come lavori, la costruzione dell'assistente sul tuo caso e la messa in funzione; nel mensile c'è il bot attivo sul tuo numero giorno e notte, l'infrastruttura, il canale WhatsApp ufficiale di Meta, le modifiche quando cambiano orari, risposte o chiusure, e il controllo che risponda bene. Se preferisci pagare una volta sola, la consegna senza servizio mensile costa 2.900 € e gira sulla tua infrastruttura, con i costi a tuo carico. Prezzi IVA esclusa.</div>
           </div>
         </div>
 
         <div class="faq-item">
           <button class="faq-question" onclick="toggle(this)">
-            Funziona anche per il mio settore?
+            Quanto costa una consulenza AI?
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <div class="faq-answer-inner">Se hai clienti che ti contattano, richieste da gestire o attività ripetitive da fare ogni giorno, funziona. Abbiamo lavorato con ristoranti, saloni, studi professionali, artigiani, agenzie immobiliari, negozi. Se hai dubbi sul tuo caso specifico, scrivici — ci vogliono 5 minuti per capirlo insieme.</div>
+            <div class="faq-answer-inner">I primi 15 minuti sono gratuiti e servono a capire se posso esserti utile. Poi: l'AI Starter, un'ora di formazione sulle basi, costa 79 €; una sessione di consulenza sul tuo caso costa 120 € per un'ora o 200 € per due ore; se vuoi un consulente sempre disponibile, l'AI Partner costa 350 € al mese e comprende tre ore di consulenza, la risposta su WhatsApp entro 4 ore lavorative e una revisione mensile. Prezzi IVA esclusa.</div>
           </div>
         </div>
 
         <div class="faq-item">
           <button class="faq-question" onclick="toggle(this)">
-            Quanto tempo ci vuole per essere operativi?
+            Quanto costa automatizzare un processo?
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <div class="faq-answer-inner">Dalla prima conversazione al sistema attivo: massimo 72 ore per i casi standard. Nessun mese di implementazione, nessun progetto infinito.</div>
+            <div class="faq-answer-inner">Si parte da 800 €. Dipende da quanti passaggi ha il processo e da quanti programmi diversi deve mettere d'accordo: i preventivi che si generano da soli, le email che partono al momento giusto, i dati che passano dal gestionale al foglio di calcolo senza che nessuno li ricopi. Te lo dico prima di iniziare, non dopo.</div>
           </div>
         </div>
 
         <div class="faq-item">
           <button class="faq-question" onclick="toggle(this)">
-            Cosa succede se qualcosa non funziona?
+            Perché c'è un canone mensile e non pago una volta sola?
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <div class="faq-answer-inner">Non scompariamo dopo la consegna. Monitoriamo il sistema, interveniamo se qualcosa va storto e aggiustiamo nel tempo in base a come cambia la tua attività. Sei seguito anche dopo.</div>
+            <div class="faq-answer-inner">Perché un assistente WhatsApp non è un file che ti consegno: è un servizio che deve restare acceso. Gira su un server, usa il canale ufficiale di Meta, e ogni mese qualcuno deve pagare quei costi, controllare che risponda bene e aggiornarlo quando cambi orari o aggiungi servizi. Il canone copre questo. Se preferisci non averlo, esiste la formula a 2.900 € in cui tutto passa sulla tua infrastruttura e da lì in poi te ne occupi tu.</div>
           </div>
         </div>
       </div>
 
       <div class="faq-category">
-        <div class="faq-category-title">Aspetti tecnici</div>
+        <div class="faq-category-title">Come funziona</div>
 
         <div class="faq-item">
           <button class="faq-question" onclick="toggle(this)">
-            Ho bisogno di software o gestionali particolari?
+            Quanto tempo ci vuole per partire?
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <div class="faq-answer-inner">No. Lavoriamo sui sistemi che già usi — WhatsApp Business, il tuo sito, la tua email, i tuoi social. Non devi comprare niente di nuovo né cambiare il modo in cui lavori oggi.</div>
+            <div class="faq-answer-inner">Un'automazione semplice è in funzione in una o due settimane. Un assistente WhatsApp completo richiede in genere dalle due alle quattro settimane, e il motivo non è il lavoro: è che Meta deve verificare l'azienda e approvare i messaggi automatici, e quei tempi non li decido io. Te lo dico subito perché nessuno rimanga in attesa senza sapere perché.</div>
           </div>
         </div>
 
         <div class="faq-item">
           <button class="faq-question" onclick="toggle(this)">
-            Devo seguire corsi o formazione?
+            Devo comprare software o cambiare gestionale?
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <div class="faq-answer-inner">Assolutamente no. L'automazione funziona in background — tu vedi solo i risultati. Niente dashboard complicate, niente manuali. Se sai usare WhatsApp, sai già usare quello che costruiamo per te.</div>
+            <div class="faq-answer-inner">No. Lavoro sugli strumenti che usi già: WhatsApp, la tua email, il tuo sito, il tuo gestionale. Se una cosa funziona, non la si tocca — si automatizza intorno.</div>
           </div>
         </div>
 
         <div class="faq-item">
           <button class="faq-question" onclick="toggle(this)">
-            I miei dati e quelli dei miei clienti sono al sicuro?
+            Devo imparare a usarlo?
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <div class="faq-answer-inner">Sì. Lavoriamo nel rispetto del GDPR e utilizziamo solo strumenti certificati. I dati dei tuoi clienti non vengono mai ceduti a terzi né usati per altri scopi. Trovi tutti i dettagli nella nostra <a href="privacy.html" style="color: var(--blue);">Privacy Policy</a>.</div>
+            <div class="faq-answer-inner">No, ed è il punto. Non ci sono dashboard da guardare né manuali da leggere: l'assistente risponde ai tuoi clienti e tu vedi arrivare gli appuntamenti dove li vedi adesso. Se serve cambiare qualcosa, me lo scrivi e lo cambio io.</div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggle(this)">
+            Il numero WhatsApp resta mio?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Sì, sempre. Il numero e l'account WhatsApp Business restano intestati alla tua azienda: io ci accedo come fornitore tecnico per farlo funzionare. Se un domani decidi di fermarti, il numero resta tuo e torna semplicemente a funzionare come prima.</div>
           </div>
         </div>
 
@@ -229,7 +239,51 @@
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <div class="faq-answer-inner">Sì. Non ci sono vincoli o contratti pluriennali. Se decidi di non continuare, il sistema viene disattivato senza penali. Preferiamo che tu resti perché sei soddisfatto, non perché sei obbligato.</div>
+            <div class="faq-answer-inner">Sul servizio mensile c'è un impegno minimo di 12 mesi, che serve a coprire il lavoro di avviamento. Dopo si disdice quando vuoi con 30 giorni di preavviso, senza penali. Alla disdetta l'assistente si spegne — il numero resta tuo e ricomincia a squillare come prima.</div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggle(this)">
+            Cosa succede se qualcosa non funziona?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Me ne occupo io: è compreso nel servizio mensile. Non sparisco dopo la consegna, e non ti mando a scrivere a un'assistenza che risponde in inglese dopo tre giorni. Mi scrivi su WhatsApp e ti rispondo io.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-category">
+        <div class="faq-category-title">Dati, privacy e regole</div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggle(this)">
+            I dati dei miei clienti dove finiscono?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Restano tuoi. Io li tratto per conto tuo, con un accordo scritto che stabilisce cosa posso e cosa non posso farci, e non vengono mai ceduti o usati per altri scopi. Il principio con cui costruisco gli assistenti è tenerne il meno possibile: nome, contatto, che servizio serve e quando — il resto si dice di persona. Meno dati ci sono in giro, meno problemi hai. L'informativa privacy verso i tuoi clienti resta però una tua responsabilità, e su quella ti dico solo che serve.</div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggle(this)">
+            L'assistente dice che è un'intelligenza artificiale?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Sì, e non è un dettaglio: dal 2 agosto 2026 il regolamento europeo sull'intelligenza artificiale chiede che una persona sappia di stare parlando con un sistema automatico. Tutti gli assistenti che costruisco lo dichiarano alla prima risposta. Non fingo mai che dall'altra parte ci sia un essere umano.</div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggle(this)">
+            Chi mi garantisce che l'assistente non dica sciocchezze ai miei clienti?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Il modo in cui è costruito. Non è un chatbot che improvvisa: risponde su quello che gli hai detto tu, e quando una domanda esce da lì lo dice apertamente e passa la persona a te, invece di inventare. Nel dubbio, tace.</div>
           </div>
         </div>
       </div>
@@ -239,11 +293,11 @@
 
         <div class="faq-item">
           <button class="faq-question" onclick="toggle(this)">
-            Come funziona il primo contatto?
+            Funziona anche per il mio settore?
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <div class="faq-answer-inner">Compili il form sul sito o ci scrivi via email o WhatsApp descrivendo in due righe la tua attività e cosa ti fa perdere più tempo. Ti rispondiamo entro 24 ore con una proposta concreta su cosa potremmo automatizzare per te — senza impegno.</div>
+            <div class="faq-answer-inner">Se hai clienti che ti scrivono o ti telefonano, richieste da smistare o cose ripetitive da fare ogni giorno, funziona. Ho lavorato con CAF e patronati, artigiani, ristorazione, studi di consulenza fiscale e strutture ricettive. Se hai un dubbio sul tuo caso, scrivimi due righe: per capirlo bastano cinque minuti e non ti costa niente.</div>
           </div>
         </div>
 
@@ -253,17 +307,26 @@
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <div class="faq-answer-inner">Non necessariamente. Alcuni servizi come l'assistente WhatsApp o la gestione social funzionano indipendentemente dal sito. Se invece vuoi i preventivi automatici, ti serve almeno una pagina dove inserire il form — ma anche quello possiamo aiutarti a costruire.</div>
+            <div class="faq-answer-inner">Non per forza. L'assistente WhatsApp e le automazioni sulle email funzionano anche senza sito. Serve una pagina solo se vuoi i preventivi automatici da un modulo — e in quel caso la pagina si può fare.</div>
           </div>
         </div>
 
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggle(this)">
+            Come funziona il primo contatto?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Mi scrivi due righe su cosa fai e cosa ti fa perdere più tempo, via modulo, email o WhatsApp. Ti rispondo io entro 24 ore, senza intermediari, e se vedo qualcosa di concreto ci sentiamo un quarto d'ora. Se invece non vedo un ritorno vero per la tua attività te lo dico e non ti propongo niente.</div>
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="cta">
       <h2>Non hai trovato risposta?</h2>
-      <p>Scrivici direttamente — rispondiamo entro 24 ore e senza giri di parole.</p>
-      <a href="index.html#contatti" class="cta-btn">Scrivici →</a>
+      <p>Scrivimi direttamente — rispondo io entro 24 ore e senza giri di parole.</p>
+      <a href="index.html#contatti" class="cta-btn">Scrivimi →</a>
     </div>
   </div>
 
@@ -294,5 +357,151 @@
     }
   </script>
 
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "@id": "https://automiatech.it/faq.html#faq",
+    "inLanguage": "it-IT",
+    "url": "https://automiatech.it/faq.html",
+    "name": "Domande frequenti — AutomIA",
+    "isPartOf": {
+      "@id": "https://automiatech.it/#website"
+    },
+    "about": {
+      "@id": "https://automiatech.it/#business"
+    },
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quanto costa un assistente WhatsApp per la mia azienda?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "L'attivazione costa 1.500 € e il servizio 150 € al mese. Nell'attivazione c'è l'analisi di come lavori, la costruzione dell'assistente sul tuo caso e la messa in funzione; nel mensile c'è il bot attivo sul tuo numero giorno e notte, l'infrastruttura, il canale WhatsApp ufficiale di Meta, le modifiche quando cambiano orari, risposte o chiusure, e il controllo che risponda bene. Se preferisci pagare una volta sola, la consegna senza servizio mensile costa 2.900 € e gira sulla tua infrastruttura, con i costi a tuo carico. Prezzi IVA esclusa."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quanto costa una consulenza AI?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "I primi 15 minuti sono gratuiti e servono a capire se posso esserti utile. Poi: l'AI Starter, un'ora di formazione sulle basi, costa 79 €; una sessione di consulenza sul tuo caso costa 120 € per un'ora o 200 € per due ore; se vuoi un consulente sempre disponibile, l'AI Partner costa 350 € al mese e comprende tre ore di consulenza, la risposta su WhatsApp entro 4 ore lavorative e una revisione mensile. Prezzi IVA esclusa."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quanto costa automatizzare un processo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Si parte da 800 €. Dipende da quanti passaggi ha il processo e da quanti programmi diversi deve mettere d'accordo: i preventivi che si generano da soli, le email che partono al momento giusto, i dati che passano dal gestionale al foglio di calcolo senza che nessuno li ricopi. Te lo dico prima di iniziare, non dopo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Perché c'è un canone mensile e non pago una volta sola?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Perché un assistente WhatsApp non è un file che ti consegno: è un servizio che deve restare acceso. Gira su un server, usa il canale ufficiale di Meta, e ogni mese qualcuno deve pagare quei costi, controllare che risponda bene e aggiornarlo quando cambi orari o aggiungi servizi. Il canone copre questo. Se preferisci non averlo, esiste la formula a 2.900 € in cui tutto passa sulla tua infrastruttura e da lì in poi te ne occupi tu."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quanto tempo ci vuole per partire?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Un'automazione semplice è in funzione in una o due settimane. Un assistente WhatsApp completo richiede in genere dalle due alle quattro settimane, e il motivo non è il lavoro: è che Meta deve verificare l'azienda e approvare i messaggi automatici, e quei tempi non li decido io. Te lo dico subito perché nessuno rimanga in attesa senza sapere perché."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Devo comprare software o cambiare gestionale?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Lavoro sugli strumenti che usi già: WhatsApp, la tua email, il tuo sito, il tuo gestionale. Se una cosa funziona, non la si tocca — si automatizza intorno."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Devo imparare a usarlo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No, ed è il punto. Non ci sono dashboard da guardare né manuali da leggere: l'assistente risponde ai tuoi clienti e tu vedi arrivare gli appuntamenti dove li vedi adesso. Se serve cambiare qualcosa, me lo scrivi e lo cambio io."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Il numero WhatsApp resta mio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sì, sempre. Il numero e l'account WhatsApp Business restano intestati alla tua azienda: io ci accedo come fornitore tecnico per farlo funzionare. Se un domani decidi di fermarti, il numero resta tuo e torna semplicemente a funzionare come prima."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso smettere quando voglio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sul servizio mensile c'è un impegno minimo di 12 mesi, che serve a coprire il lavoro di avviamento. Dopo si disdice quando vuoi con 30 giorni di preavviso, senza penali. Alla disdetta l'assistente si spegne — il numero resta tuo e ricomincia a squillare come prima."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Cosa succede se qualcosa non funziona?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Me ne occupo io: è compreso nel servizio mensile. Non sparisco dopo la consegna, e non ti mando a scrivere a un'assistenza che risponde in inglese dopo tre giorni. Mi scrivi su WhatsApp e ti rispondo io."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "I dati dei miei clienti dove finiscono?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Restano tuoi. Io li tratto per conto tuo, con un accordo scritto che stabilisce cosa posso e cosa non posso farci, e non vengono mai ceduti o usati per altri scopi. Il principio con cui costruisco gli assistenti è tenerne il meno possibile: nome, contatto, che servizio serve e quando — il resto si dice di persona. Meno dati ci sono in giro, meno problemi hai. L'informativa privacy verso i tuoi clienti resta però una tua responsabilità, e su quella ti dico solo che serve."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "L'assistente dice che è un'intelligenza artificiale?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sì, e non è un dettaglio: dal 2 agosto 2026 il regolamento europeo sull'intelligenza artificiale chiede che una persona sappia di stare parlando con un sistema automatico. Tutti gli assistenti che costruisco lo dichiarano alla prima risposta. Non fingo mai che dall'altra parte ci sia un essere umano."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Chi mi garantisce che l'assistente non dica sciocchezze ai miei clienti?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Il modo in cui è costruito. Non è un chatbot che improvvisa: risponde su quello che gli hai detto tu, e quando una domanda esce da lì lo dice apertamente e passa la persona a te, invece di inventare. Nel dubbio, tace."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Funziona anche per il mio settore?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Se hai clienti che ti scrivono o ti telefonano, richieste da smistare o cose ripetitive da fare ogni giorno, funziona. Ho lavorato con CAF e patronati, artigiani, ristorazione, studi di consulenza fiscale e strutture ricettive. Se hai un dubbio sul tuo caso, scrivimi due righe: per capirlo bastano cinque minuti e non ti costa niente."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Devo avere già un sito web?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Non per forza. L'assistente WhatsApp e le automazioni sulle email funzionano anche senza sito. Serve una pagina solo se vuoi i preventivi automatici da un modulo — e in quel caso la pagina si può fare."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Come funziona il primo contatto?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Mi scrivi due righe su cosa fai e cosa ti fa perdere più tempo, via modulo, email o WhatsApp. Ti rispondo io entro 24 ore, senza intermediari, e se vedo qualcosa di concreto ci sentiamo un quarto d'ora. Se invece non vedo un ritorno vero per la tua attività te lo dico e non ti propongo niente."
+        }
+      }
+    ]
+  }
+  </script>
 </body>
 </html>
