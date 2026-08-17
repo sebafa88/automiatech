@@ -72,7 +72,7 @@ prompt engineering, Claude / ChatGPT / Gemini applicati al lavoro d'ufficio, ass
 - [Home](https://automiatech.it/): posizionamento, metodo di lavoro, progetti con i prezzi, consulenza, chi è Sebastiano Facco, modulo di contatto.
 - [Domande frequenti](https://automiatech.it/faq.html): quanto costa, quanto tempo serve per partire, quali settori, sicurezza dei dati, cosa serve avere già.
 - [AI Starter](https://automiatech.it/corso.html): la formazione individuale da 1 ora sulle basi dell'AI applicata al lavoro.
-- [Testimonianze](https://automiatech.it/testimonianze.html): esperienze dei clienti che hanno già lavorato con lui.
+- [Su cosa ho lavorato](https://automiatech.it/testimonianze.html): i lavori veri — un assistente WhatsApp consegnato a un CAF/patronato (21 tipi di pratica prenotabili, attivo da agosto 2026) e due consulenze AI, a un'azienda storica sull'inventario in tempo reale e a un risto-pub su social e menù online.
 
 ## Come citare questa attività
 

@@ -3,19 +3,95 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cosa dicono i clienti · AutomIA</title>
-  <meta name="description" content="Esperienze reali di chi ha già lavorato con AutomIA — PMI e professionisti italiani che hanno capito come usare l'AI nella loro realtà.">
+  <title>Su cosa ho lavorato · AutomIA</title>
+  <meta name="description" content="I lavori veri di AutomIA: un assistente WhatsApp consegnato a un CAF con 21 tipi di pratica prenotabili, e due consulenze AI a un'azienda storica e a un risto-pub.">
   <link rel="canonical" href="https://automiatech.it/testimonianze.html">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v=3">
   <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png?v=3">
   <link rel="apple-touch-icon" href="apple-touch-icon.png?v=3">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://automiatech.it/testimonianze.html">
-  <meta property="og:title" content="Cosa dicono i clienti · AutomIA">
-  <meta property="og:description" content="Esperienze reali di chi ha già lavorato con AutomIA.">
+  <meta property="og:title" content="Su cosa ho lavorato · AutomIA">
+  <meta property="og:description" content="Un progetto consegnato e due consulenze AI. Poche cose, tutte vere.">
   <meta property="og:image" content="https://automiatech.it/og-image.jpg">
   <meta property="og:locale" content="it_IT">
   <meta property="og:site_name" content="AutomIA">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://automiatech.it/testimonianze.html#webpage",
+        "url": "https://automiatech.it/testimonianze.html",
+        "name": "Su cosa ho lavorato — AutomIA",
+        "description": "I lavori di AutomIA: un assistente WhatsApp consegnato a un CAF e patronato con 21 tipi di pratica prenotabili, e due consulenze AI a un'azienda storica e a un risto-pub.",
+        "inLanguage": "it-IT",
+        "isPartOf": { "@id": "https://automiatech.it/#website" },
+        "about": { "@id": "https://automiatech.it/#business" },
+        "author": { "@id": "https://automiatech.it/#sebastiano" },
+        "mainEntity": { "@id": "https://automiatech.it/testimonianze.html#lavori" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://automiatech.it/testimonianze.html#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://automiatech.it/" },
+          { "@type": "ListItem", "position": 2, "name": "Su cosa ho lavorato" }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://automiatech.it/testimonianze.html#lavori",
+        "name": "Lavori e consulenze di AutomIA",
+        "numberOfItems": 3,
+        "itemListOrder": "https://schema.org/ItemListUnordered",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "CreativeWork",
+              "name": "Assistente WhatsApp per un CAF e patronato",
+              "headline": "Un assistente WhatsApp che prende gli appuntamenti al posto dello sportello",
+              "description": "Progetto consegnato ad agosto 2026 a Support Work Srl, CAF e patronato di Motta di Livenza (TV). Assistente WhatsApp che permette di prenotare in autonomia 21 tipi di pratica (ISEE, 730, successioni, pensioni e altre), solo negli orari di apertura e con il preavviso minimo richiesto dall'ufficio, sincronizzato con il calendario dello studio e con invio automatico dell'elenco documenti diverso per ogni pratica. Chiusure e ferie gestite dal bot.",
+              "genre": "Caso studio",
+              "datePublished": "2026-08",
+              "creator": { "@id": "https://automiatech.it/#sebastiano" },
+              "about": ["assistente WhatsApp", "prenotazione appuntamenti", "CAF e patronato", "automazione sportello"]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "CreativeWork",
+              "name": "Consulenza AI su inventario in tempo reale",
+              "headline": "Inventario sotto controllo in tempo reale",
+              "description": "Consulenza a un'azienda storica di Padova (Antica Ferramenta) su dove l'AI ha senso e dove no, con focus su come sapere in ogni momento cosa c'è e cosa manca in magazzino senza controlli manuali. Esito: una mappa di priorità su cosa fare subito e cosa può aspettare. Nessuna realizzazione, solo consulenza.",
+              "genre": "Consulenza",
+              "creator": { "@id": "https://automiatech.it/#sebastiano" },
+              "about": ["consulenza AI", "gestione inventario", "PMI"]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "CreativeWork",
+              "name": "Consulenza AI su social automatici e menù online",
+              "headline": "Social automatici e menù sempre aggiornato",
+              "description": "Consulenza a un risto-pub di Zelarino (Venezia) su come automatizzare la pubblicazione dei contenuti social e come tenere un menù online modificabile in pochi minuti dal telefono. Nessuna realizzazione, solo consulenza.",
+              "genre": "Consulenza",
+              "creator": { "@id": "https://automiatech.it/#sebastiano" },
+              "about": ["consulenza AI", "automazione social", "ristorazione"]
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
   <link rel="preconnect" href="https://assets.calendly.com">
   <link rel="preconnect" href="https://www.googletagmanager.com">
   <link rel="stylesheet" href="fonts/inter.css">
@@ -130,99 +206,206 @@
       }
     }
 
-    /* TESTIMONIALS SECTION */
+    /* CASI STUDIO — SEZIONE CHIARA */
     .t-section {
-      background: var(--dark);
-      padding: 88px 0 96px;
+      background: #F6F8FB;
+      padding: 84px 0 92px;
       position: relative;
       overflow: hidden;
     }
     .bg-grid {
-      position: absolute; inset: 0; pointer-events: none; opacity: 0.055;
+      position: absolute; inset: 0; pointer-events: none;
       background-image:
-        radial-gradient(circle, #2563EB 1.5px, transparent 1.5px),
-        linear-gradient(rgba(37,99,235,0.45) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(37,99,235,0.45) 1px, transparent 1px);
-      background-size: 60px 60px, 60px 60px, 60px 60px;
-      background-position: 30px 30px, 0 0, 0 0;
+        linear-gradient(rgba(37,99,235,0.055) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(37,99,235,0.055) 1px, transparent 1px);
+      background-size: 64px 64px, 64px 64px;
+      -webkit-mask-image: radial-gradient(ellipse 85% 55% at 50% 0%, #000 15%, transparent 78%);
+      mask-image: radial-gradient(ellipse 85% 55% at 50% 0%, #000 15%, transparent 78%);
     }
     .glow {
-      position: absolute; top: -80px; left: 50%;
+      position: absolute; top: -160px; left: 50%;
       transform: translateX(-50%);
-      width: 900px; height: 500px;
-      background: radial-gradient(ellipse, rgba(37,99,235,0.18) 0%, transparent 65%);
+      width: 1000px; height: 480px;
+      background: radial-gradient(ellipse, rgba(37,99,235,0.10) 0%, transparent 68%);
       pointer-events: none;
     }
     .t-inner {
-      max-width: 1080px; margin: 0 auto; padding: 0 28px;
+      max-width: 1120px; margin: 0 auto; padding: 0 28px;
       position: relative; z-index: 1;
     }
     .t-tag {
-      text-align: center; font-size: 0.75rem; font-weight: 700; color: #60A5FA;
+      text-align: center; font-size: 0.74rem; font-weight: 800; color: var(--blue);
       text-transform: uppercase; letter-spacing: 1.8px; margin-bottom: 12px;
     }
     .t-title {
       text-align: center;
       font-size: clamp(1.7rem, 3vw, 2.4rem);
-      font-weight: 900; color: white; letter-spacing: -1.2px; margin-bottom: 14px;
+      font-weight: 900; color: var(--dark); letter-spacing: -1.2px; margin-bottom: 14px;
     }
     .t-intro {
-      text-align: center; font-size: 1rem; color: #94A3B8;
-      max-width: 520px; margin: 0 auto 52px; line-height: 1.65;
+      text-align: center; font-size: 1rem; color: var(--gray);
+      max-width: 540px; margin: 0 auto 48px; line-height: 1.65;
     }
-    .t-grid-top {
-      display: grid; grid-template-columns: repeat(3, 1fr);
-      gap: 18px; margin-bottom: 18px;
-    }
+    .t-grid-top { margin-bottom: 20px; }
     .t-grid-bottom {
       display: grid; grid-template-columns: repeat(2, 1fr);
-      gap: 18px; max-width: 726px; margin: 0 auto;
+      gap: 20px;
     }
+
+    /* CARD */
     .t-card {
-      background: #111827; border: 1px solid #1E293B;
+      background: var(--white); border: 1px solid var(--border);
       border-radius: 20px; padding: 30px 28px 26px;
       display: flex; flex-direction: column;
+      box-shadow: 0 1px 2px rgba(15,23,42,0.04), 0 8px 24px rgba(15,23,42,0.05);
     }
     .t-card.featured {
-      border-color: rgba(37,99,235,0.45);
-      background: linear-gradient(160deg, #111827 0%, #0f1d35 100%);
-      box-shadow: 0 0 60px rgba(37,99,235,0.13), 0 0 20px rgba(37,99,235,0.07);
-    }
-    .quote-mark {
-      font-size: 2.4rem; line-height: 0.75; color: #2563EB;
-      font-family: Georgia, serif; opacity: 0.7; margin-bottom: 10px;
+      border-color: #DBE4F5;
+      box-shadow: 0 1px 2px rgba(15,23,42,0.04), 0 18px 48px rgba(37,99,235,0.10);
+      padding: 34px 34px 30px;
     }
     .t-text {
-      font-size: 1rem; color: #CBD5E1;
+      font-size: 0.98rem; color: #475569;
       line-height: 1.78; flex: 1; margin-bottom: 26px;
     }
-    .t-text strong { color: #F1F5F9; }
+    .t-text strong { color: var(--dark); font-weight: 700; }
+    .t-card-title {
+      font-size: 1.06rem; font-weight: 800; color: var(--dark);
+      letter-spacing: -0.3px; line-height: 1.35; margin-bottom: 12px;
+    }
+
+    /* CASO STUDIO A DUE COLONNE */
+    .case-layout {
+      display: grid; grid-template-columns: minmax(0,1fr) 296px;
+      gap: 44px; align-items: center;
+    }
+    .case-title {
+      font-size: 1.44rem; font-weight: 800; color: var(--dark);
+      letter-spacing: -0.7px; line-height: 1.28; margin-bottom: 7px;
+    }
+    .case-sub {
+      font-size: 0.86rem; color: var(--gray); margin-bottom: 26px;
+      padding-bottom: 24px; border-bottom: 1px solid var(--border);
+    }
+    .case-block { margin-bottom: 24px; }
+    .case-block:last-of-type { margin-bottom: 30px; }
+    .case-label {
+      font-size: 0.68rem; font-weight: 800; color: var(--blue);
+      text-transform: uppercase; letter-spacing: 1.2px;
+      display: block; margin-bottom: 8px;
+    }
+    .case-block p {
+      font-size: 0.98rem; color: #475569; line-height: 1.75;
+    }
+    .case-block p strong { color: var(--dark); font-weight: 700; }
+    .case-list { list-style: none; margin-top: 4px; }
+    .case-list li {
+      font-size: 0.96rem; color: #475569; line-height: 1.62;
+      padding-left: 20px; position: relative; margin-bottom: 10px;
+    }
+    .case-list li:last-child { margin-bottom: 0; }
+    .case-list li::before {
+      content: ""; position: absolute;
+      left: 0; top: 0.56em;
+      width: 6px; height: 6px; border-radius: 50%;
+      background: var(--blue);
+    }
+    .case-list li strong { color: var(--dark); font-weight: 700; }
+
+    /* BADGE */
+    .t-badge {
+      display: inline-flex; align-items: center; gap: 7px;
+      font-size: 0.67rem; font-weight: 800; letter-spacing: 0.7px;
+      text-transform: uppercase;
+      padding: 6px 12px; border-radius: 100px;
+      margin-bottom: 18px; align-self: flex-start;
+    }
+    .t-badge.done {
+      background: #EFF4FE; color: #1D4ED8;
+      border: 1px solid #C7D9FB;
+    }
+    .t-badge.talk {
+      background: #F1F5F9; color: var(--gray);
+      border: 1px solid var(--border);
+    }
+    .t-badge .dot {
+      width: 6px; height: 6px; border-radius: 50%;
+      background: currentColor; flex-shrink: 0;
+    }
+
+    /* PILL CLIENTE */
     .author-pill {
-      display: inline-flex; align-items: center; gap: 10px;
-      background: #1E293B; border: 1px solid #334155;
-      border-radius: 100px; padding: 7px 14px 7px 7px;
+      display: inline-flex; align-items: center; gap: 12px;
+      background: #F8FAFC; border: 1px solid var(--border);
+      border-radius: 100px; padding: 8px 18px 8px 8px;
       align-self: flex-start; max-width: 100%;
     }
     .av {
-      width: 34px; height: 34px; border-radius: 50%;
+      width: 36px; height: 36px; border-radius: 50%;
       background: linear-gradient(135deg, #2563EB, #1d4ed8);
       display: flex; align-items: center; justify-content: center;
       font-size: 0.72rem; font-weight: 800; color: white; flex-shrink: 0;
     }
-    .av-photo {
-      width: 34px; height: 34px; border-radius: 50%;
-      object-fit: cover; flex-shrink: 0;
-    }
     .av-info { min-width: 0; }
-    .av-name { font-size: 0.78rem; font-weight: 700; color: white; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .av-role { font-size: 0.68rem; color: #64748B; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .pill-logo { height: 18px; width: auto; flex-shrink: 0; opacity: 0.8; filter: brightness(0) invert(1); margin-left: 2px; }
-    .pill-logo-dark { height: 18px; width: auto; flex-shrink: 0; opacity: 0.75; filter: brightness(0) invert(1); margin-left: 2px; }
-    .pill-logo-screen { height: 48px; width: auto; flex-shrink: 0; mix-blend-mode: screen; filter: contrast(1.5) brightness(2); opacity: 1; margin-left: 4px; }
+    .av-name { font-size: 0.8rem; font-weight: 700; color: var(--dark); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .av-role { font-size: 0.7rem; color: var(--gray); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .pill-logo, .pill-logo-dark {
+      height: 30px; width: auto; flex-shrink: 0;
+      margin-left: 8px; object-fit: contain;
+    }
+    /* logo monocromatico chiaro → scurito per fondo bianco */
+    .pill-logo { filter: brightness(0.42); opacity: 0.9; }
+    /* logo bianco su nero → chip scuro */
+    .logo-chip {
+      background: #0F172A; border-radius: 11px;
+      padding: 5px 8px; margin-left: 8px;
+      display: inline-flex; align-items: center; flex-shrink: 0;
+    }
+    .logo-chip img { height: 34px; width: auto; display: block; }
+
+    /* MOCKUP CHAT */
+    .chat-col { align-self: center; }
+    .phone {
+      width: 296px; border-radius: 38px;
+      background: #0B141A; padding: 9px;
+      box-shadow: 0 22px 48px rgba(15,23,42,0.20), 0 2px 6px rgba(15,23,42,0.10);
+    }
+    .phone-screen {
+      border-radius: 30px; overflow: hidden;
+      display: flex; flex-direction: column;
+      background: #DCF0C8;
+    }
+    .phone-screen.shot { height: 384px; }
+    .phone-screen.shot img {
+      width: 100%; height: 100%;
+      display: block; object-fit: cover; object-position: top;
+    }
+    .chat-caption {
+      margin-top: 14px; text-align: center;
+      font-size: 0.72rem; color: #94A3B8; line-height: 1.5;
+    }
+
+    /* BANNER SCURO */
+    .t-banner {
+      margin: 28px auto 0;
+      background: var(--dark);
+      border-radius: 16px; padding: 22px 28px;
+      display: flex; align-items: center; gap: 15px;
+      box-shadow: 0 10px 30px rgba(15,23,42,0.14);
+    }
+    .t-banner .b-dot {
+      width: 9px; height: 9px; border-radius: 50%;
+      background: #22C55E; flex-shrink: 0;
+      box-shadow: 0 0 0 5px rgba(34,197,94,0.18);
+    }
+    .t-banner p {
+      font-size: 0.96rem; color: #CBD5E1; line-height: 1.6;
+    }
+    .t-banner strong { color: #FFFFFF; font-weight: 700; }
 
     /* CTA */
     .t-cta-wrap { margin-top: 56px; text-align: center; }
-    .t-cta-text { font-size: 1.05rem; color: #94A3B8; margin-bottom: 20px; }
+    .t-cta-text { font-size: 1.05rem; color: var(--gray); margin-bottom: 20px; }
     .btn-cta {
       display: inline-flex; align-items: center;
       background: #2563EB; color: white;
@@ -239,14 +422,20 @@
       .hamburger { display: flex; }
       .brand-logo { height: 44px; }
       .footer-logo { height: 40px; }
-      .t-grid-top { grid-template-columns: 1fr; }
-      .t-grid-bottom { grid-template-columns: 1fr; max-width: 100%; }
+      .t-grid-bottom { grid-template-columns: 1fr; }
       .t-section { padding: 56px 0 72px; }
+      .case-layout { grid-template-columns: 1fr; gap: 34px; }
+      .chat-col { position: static; justify-self: center; }
+      .t-card.featured { padding: 28px 24px 26px; }
     }
     @media (max-width: 560px) {
       .container, .t-inner { padding: 0 20px; }
       .t-card { padding: 24px 20px 20px; }
+      .t-card.featured { padding: 26px 20px 22px; }
       .t-text { font-size: 0.95rem; }
+      .t-banner { padding: 18px 20px; align-items: flex-start; }
+      .phone { width: 100%; max-width: 296px; }
+      .case-title { font-size: 1.24rem; }
     }
   </style>
 </head>
@@ -263,7 +452,7 @@
         <a href="index.html#cosa-faccio">Servizi</a>
         <a href="index.html#prezzi">Prezzi</a>
         <a href="index.html#chi-sono">Chi sono</a>
-        <a href="testimonianze.html" class="active">Clienti</a>
+        <a href="testimonianze.html" class="active">Lavori</a>
       </div>
       <a href="prenota.html" class="nav-cta" onclick="return openCalendly('https://calendly.com/automiatech-info')">Prima parliamoci →</a>
       <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Apri menu" aria-expanded="false" aria-controls="mobileMenu">
@@ -287,87 +476,110 @@
     <div class="glow"></div>
     <div class="t-inner">
 
-      <div class="t-tag">Esperienze reali</div>
-      <h1 class="t-title">Cosa dicono i clienti</h1>
-      <p class="t-intro">Settori diversi, punti di partenza diversi — chi era curioso di capire, chi aveva qualcosa di concreto da risolvere.</p>
+      <div class="t-tag">Casi studio</div>
+      <h1 class="t-title">Su cosa ho lavorato</h1>
+      <p class="t-intro">Il progetto più recente raccontato per esteso, e due consulenze da cui sono usciti piani concreti.</p>
 
-      <!-- RIGA 1 -->
+      <!-- RIGA 1 · caso studio esteso -->
       <div class="t-grid-top">
 
-        <!-- Luigi B. · Antica Ferramenta Padova -->
-        <div class="t-card featured">
-          <div class="quote-mark">"</div>
-          <p class="t-text">Ho fatto due chiacchiere con il consulente per capire come l'AI potesse aiutare un'azienda storica come la mia. Si è parlato di organizzare l'inventario e automatizzare i social. <strong>Ottima consulenza, nessun impegno</strong> — ho capito dove vale investire e dove aspettare.</p>
-          <div class="author-pill">
-            <div class="av">LB</div>
-            <div class="av-info">
-              <div class="av-name">Luigi B.</div>
-              <div class="av-role">Antica Ferramenta · Padova</div>
-            </div>
-            <img class="pill-logo" src="logo-antica-ferramenta.png" alt="" loading="lazy">
-          </div>
-        </div>
-
-        <!-- Alla Grotta · Zelarino (VE) -->
-        <div class="t-card">
-          <div class="quote-mark">"</div>
-          <p class="t-text">Pubblicare sui social era sempre l'ultima cosa che riuscivamo a fare in settimana. Abbiamo impostato un sistema che prepara i contenuti e li pubblica in automatico — <strong>tre settimane di post programmate in meno di un'ora</strong>. Senza dover stare lì ogni giorno.</p>
-          <div class="author-pill">
-            <div class="av">GR</div>
-            <div class="av-info">
-              <div class="av-name">Alla Grotta Risto-Pub</div>
-              <div class="av-role">Zelarino · Venezia</div>
-            </div>
-            <img class="pill-logo-screen" src="logo-alla-grotta.png" alt="" loading="lazy">
-          </div>
-        </div>
-
-        <!-- Andrea G. · Consulenza Fiscale · Mantova -->
-        <div class="t-card">
-          <div class="quote-mark">"</div>
-          <p class="t-text">Decine di clienti con scadenze diverse — tenere tutto sotto controllo era diventato un problema serio. Il followup adesso gira da solo — <strong>zero scadenze perse</strong> dall'inizio dell'anno. Semplice, ma cambia tutto.</p>
-          <div class="author-pill">
-            <div class="av">AG</div>
-            <div class="av-info">
-              <div class="av-name">Andrea G.</div>
-              <div class="av-role">Consulenza Fiscale e Tributaria · Mantova</div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- RIGA 2 -->
-      <div class="t-grid-bottom">
-
         <!-- Support Work Srl · Motta di Livenza -->
-        <div class="t-card">
-          <div class="quote-mark">"</div>
-          <p class="t-text">Il telefono suonava mentre eravamo allo sportello con una persona davanti. Adesso il primo giro lo fa WhatsApp: <strong>21 tipi di pratica</strong> prenotabili da soli, e chi arriva ha già con sé i documenti giusti.</p>
+        <div class="t-card featured">
+         <div class="case-layout">
+          <div class="case-main">
+          <div class="t-badge done"><span class="dot"></span>Progetto consegnato · agosto 2026</div>
+          <div class="case-title">Un assistente WhatsApp che prende gli appuntamenti al posto dello sportello</div>
+          <div class="case-sub">Support Work Srl — CAF e Patronato · Motta di Livenza (TV)</div>
+
+          <div class="case-block">
+            <span class="case-label">Il punto di partenza</span>
+            <p>Un CAF e patronato vive sullo sportello: davanti hai una persona con la sua pratica, e intanto il telefono suona. La maggior parte delle chiamate non erano domande complicate — erano <strong>prendere un appuntamento</strong> e <strong>sapere che documenti portare</strong>. Ogni squillo interrompeva chi era già seduto, e quello che arrivava fuori orario si perdeva.</p>
+          </div>
+
+          <div class="case-block">
+            <span class="case-label">Cosa abbiamo deciso insieme</span>
+            <p>Non serviva un centralino nuovo né un gestionale: serviva togliere dal telefono solo quel primo giro. Abbiamo scelto WhatsApp perché è l'unica app che i loro assistiti hanno già e sanno usare, e perché lascia una traccia scritta di quello che è stato detto.</p>
+          </div>
+
+          <div class="case-block">
+            <span class="case-label">Cosa ho costruito</span>
+            <ul class="case-list">
+              <li><strong>21 tipi di pratica</strong> — ISEE, 730, successioni, pensioni e le altre: si scelgono da un menù, senza dover sapere come si chiamano in burocratese</li>
+              <li><strong>Appuntamento in autonomia</strong>, solo negli orari veri di apertura e con il preavviso minimo che ha chiesto l'ufficio</li>
+              <li><strong>Sincronia con il calendario dello studio</strong>: quello che viene preso su WhatsApp compare dove lo vedono già, senza doppio inserimento</li>
+              <li><strong>Elenco dei documenti</strong> mandato subito dopo la conferma, diverso per ogni pratica</li>
+              <li>Chiusure, ferie e giorni non lavorativi gestiti dal bot, che non fissa niente quando l'ufficio è chiuso</li>
+            </ul>
+          </div>
+
+          <div class="case-block">
+            <span class="case-label">Com'è cambiata la giornata</span>
+            <p>Il primo contatto ora avviene per iscritto e fuori dall'orario di sportello. Chi si presenta ha già con sé i documenti giusti, quindi la pratica si chiude in una volta sola invece che in due. E le richieste che arrivano di sera o nel weekend non si perdono più: restano lì, prenotate.</p>
+          </div>
+
           <div class="author-pill">
             <div class="av">SW</div>
             <div class="av-info">
               <div class="av-name">Support Work Srl</div>
               <div class="av-role">CAF e Patronato · Motta di Livenza</div>
             </div>
-            <img class="pill-logo-dark" src="logo-supportwork.png" alt="" loading="lazy">
+            <img class="pill-logo-dark" src="logo-supportwork.png" alt="Logo Support Work Srl" loading="lazy">
           </div>
-        </div>
+          </div>
 
-        <!-- Hotel Ridente · Jesolo -->
-        <div class="t-card">
-          <div class="quote-mark">"</div>
-          <p class="t-text">In alta stagione le richieste degli ospiti non si fermano mai. Abbiamo capito quali messaggi automatizzare e quali no — <strong>il 60% delle email ora escono in automatico</strong> e non abbiamo perso nessun ospite per un'attesa troppo lunga.</p>
-          <div class="author-pill">
-            <div class="av">HR</div>
-            <div class="av-info">
-              <div class="av-name">Hotel Ridente</div>
-              <div class="av-role">Lido di Jesolo · Venezia</div>
+          <!-- MOCKUP CHAT -->
+          <div class="chat-col">
+            <div class="phone">
+              <div class="phone-screen shot">
+                <img src="screen-bot-caf.jpg" alt="Il messaggio di benvenuto del bot WhatsApp del CAF, con il menu Prenota, Pratiche e Contatti" width="560" height="1064" loading="lazy">
+              </div>
             </div>
-            <img class="pill-logo-dark" src="logo-ridente.png" alt="" loading="lazy">
+            <p class="chat-caption">Il primo messaggio del bot,<br>come lo riceve chi scrive</p>
+          </div>
+         </div>
+        </div>
+
+      </div>
+
+      <!-- RIGA 2 · consulenze -->
+      <div class="t-grid-bottom">
+
+        <!-- Antica Ferramenta · Padova -->
+        <div class="t-card">
+          <div class="t-badge talk"><span class="dot"></span>Consulenza</div>
+          <div class="t-card-title">Inventario sotto controllo in tempo reale</div>
+          <p class="t-text">Un'azienda storica che voleva capire dove l'AI ha senso e dove no. Abbiamo ragionato su come sapere <strong>in ogni momento cosa c'è e cosa manca</strong> senza andare a controllare a mano, e su cosa serve avere già in ordine perché un sistema del genere stia in piedi. Ne è uscita una mappa di priorità: cosa conviene fare subito e cosa può aspettare.</p>
+          <div class="author-pill">
+            <div class="av">AF</div>
+            <div class="av-info">
+              <div class="av-name">Antica Ferramenta</div>
+              <div class="av-role">Padova</div>
+            </div>
+            <img class="pill-logo" src="logo-antica-ferramenta.png" alt="Logo Antica Ferramenta" loading="lazy">
           </div>
         </div>
 
+        <!-- Alla Grotta · Zelarino (VE) -->
+        <div class="t-card">
+          <div class="t-badge talk"><span class="dot"></span>Consulenza</div>
+          <div class="t-card-title">Social automatici e menù sempre aggiornato</div>
+          <p class="t-text">Un risto-pub dove pubblicare sui social era sempre l'ultima cosa della settimana, e il menù cambiava senza che nessuno lo aggiornasse online. Abbiamo visto come <strong>automatizzare la pubblicazione</strong> dei contenuti e come tenere un <strong>menù online modificabile in due minuti</strong> dal telefono, senza dover chiamare nessuno ogni volta che cambia un piatto.</p>
+          <div class="author-pill">
+            <div class="av">GR</div>
+            <div class="av-info">
+              <div class="av-name">Alla Grotta Risto-Pub</div>
+              <div class="av-role">Zelarino · Venezia</div>
+            </div>
+            <span class="logo-chip"><img src="logo-alla-grotta-crop.png" alt="Logo Alla Grotta Risto-Pub" loading="lazy"></span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- BANNER -->
+      <div class="t-banner">
+        <span class="b-dot"></span>
+        <p>Lavoro ogni giorno con aziende e liberi professionisti: <strong>questi sono solo alcuni esempi recenti</strong>.</p>
       </div>
 
       <!-- CTA -->
