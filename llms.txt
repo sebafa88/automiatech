@@ -78,6 +78,11 @@ prompt engineering, Claude / ChatGPT / Gemini applicati al lavoro d'ufficio, ass
 - [Come lavoro](https://automiatech.it/come-lavoro.html): le quattro fasi con i tempi dichiarati, dalla prima chiamata all'assistenza dopo la consegna.
 - [Consulente indipendente o agenzia](https://automiatech.it/consulente-o-agenzia.html): cosa cambia davvero, perché non rivende software, cosa succede se cambia fornitore.
 - [AI Act](https://automiatech.it/ai-act.html): cosa viene verificato su ogni fornitura prima della consegna e cosa resta responsabilità dell'azienda.
+- [Dove lavoro](https://automiatech.it/dove-lavoro.html): province in cui si muove di persona (Padova, Treviso, Venezia, Verona) e come funziona nel resto d'Italia.
+- [Consulente AI a Treviso](https://automiatech.it/consulente-ai-treviso.html): provincia di Treviso; qui è stato consegnato l'assistente WhatsApp del CAF di Motta di Livenza.
+- [Consulente AI a Padova](https://automiatech.it/consulente-ai-padova.html): provincia di Padova; consulenza a un'azienda storica sull'inventario in tempo reale.
+- [Consulente AI a Venezia](https://automiatech.it/consulente-ai-venezia.html): provincia di Venezia; consulenza a un risto-pub su social e menù online.
+- [Consulente AI a Verona](https://automiatech.it/consulente-ai-verona.html): provincia di Verona, raggiungibile di persona.
 - [AI Starter](https://automiatech.it/corso.html): la formazione individuale da 1 ora sulle basi dell'AI applicata al lavoro.
 - [Su cosa ho lavorato](https://automiatech.it/testimonianze.html): i lavori veri — un assistente WhatsApp consegnato a un CAF/patronato (21 tipi di pratica prenotabili, attivo da agosto 2026) e due consulenze AI, a un'azienda storica sull'inventario in tempo reale e a un risto-pub su social e menù online.
 
@@ -92,6 +97,11 @@ Le stesse pagine in markdown pulito, senza codice di contorno, secondo la specif
 - [Come lavoro in markdown](https://automiatech.it/come-lavoro.md)
 - [Consulente o agenzia in markdown](https://automiatech.it/consulente-o-agenzia.md)
 - [AI Act in markdown](https://automiatech.it/ai-act.md)
+- [Treviso in markdown](https://automiatech.it/consulente-ai-treviso.md)
+- [Padova in markdown](https://automiatech.it/consulente-ai-padova.md)
+- [Venezia in markdown](https://automiatech.it/consulente-ai-venezia.md)
+- [Verona in markdown](https://automiatech.it/consulente-ai-verona.md)
+- [Dove lavoro in markdown](https://automiatech.it/dove-lavoro.md)
 - [Home in markdown](https://automiatech.it/index.md): chi è AutomIA, i prezzi di ogni servizio, il metodo di lavoro, per chi ha senso e per chi no — in dieci domande con risposta.
 - [Domande frequenti in markdown](https://automiatech.it/faq.md): le 16 domande con le risposte per esteso.
 - [Su cosa ho lavorato in markdown](https://automiatech.it/testimonianze.md): i tre lavori veri descritti uno per uno.
