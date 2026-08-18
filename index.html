@@ -861,6 +861,10 @@
       flex-wrap: wrap;
       gap: 12px;
     }
+    .footer-nav { flex-basis: 100%; display: flex; flex-wrap: wrap; gap: 8px 20px;
+                  padding-bottom: 20px; border-bottom: 1px solid var(--border); }
+    .footer-nav a { font-size: 0.84rem; color: var(--gray); text-decoration: none; font-weight: 500; transition: color 0.2s; }
+    .footer-nav a:hover { color: var(--blue); }
     footer p { color: var(--gray); font-size: 0.82rem; }
 
     /* HAMBURGER */
@@ -1714,6 +1718,17 @@
   <!-- FOOTER -->
   <footer>
     <div class="container">
+    <nav class="footer-nav" aria-label="Approfondimenti">
+      <a href="prezzi.html">Prezzi</a>
+      <a href="assistente-whatsapp.html">Assistente WhatsApp</a>
+      <a href="automazioni.html">Automazioni</a>
+      <a href="consulenza.html">Consulenza</a>
+      <a href="come-lavoro.html">Come lavoro</a>
+      <a href="consulente-o-agenzia.html">Consulente o agenzia</a>
+      <a href="ai-act.html">AI Act</a>
+      <a href="faq.html">Domande frequenti</a>
+      <a href="testimonianze.html">Su cosa ho lavorato</a>
+    </nav>
       <a href="#" class="brand">
         <img src="logo-face.jpg" alt="AutomIA - Consulente AI per PMI italiane" class="footer-logo" width="150" height="58">
       </a>

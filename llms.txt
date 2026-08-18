@@ -71,6 +71,13 @@ prompt engineering, Claude / ChatGPT / Gemini applicati al lavoro d'ufficio, ass
 
 - [Home](https://automiatech.it/): posizionamento, metodo di lavoro, progetti con i prezzi, consulenza, chi è Sebastiano Facco, modulo di contatto.
 - [Domande frequenti](https://automiatech.it/faq.html): quanto costa, quanto tempo serve per partire, quali settori, sicurezza dei dati, cosa serve avere già.
+- [Prezzi](https://automiatech.it/prezzi.html): il listino completo con i tempi di consegna e cosa è compreso in ogni formula.
+- [Assistente WhatsApp](https://automiatech.it/assistente-whatsapp.html): cos'è, come funziona in ufficio, il caso vero del CAF, il numero che resta dell'azienda.
+- [Automazione di processo](https://automiatech.it/automazioni.html): quali processi si automatizzano più spesso, con quali strumenti, come si capisce se conviene.
+- [Consulenza AI](https://automiatech.it/consulenza.html): le quattro formule e cosa esce scritto da ognuna.
+- [Come lavoro](https://automiatech.it/come-lavoro.html): le quattro fasi con i tempi dichiarati, dalla prima chiamata all'assistenza dopo la consegna.
+- [Consulente indipendente o agenzia](https://automiatech.it/consulente-o-agenzia.html): cosa cambia davvero, perché non rivende software, cosa succede se cambia fornitore.
+- [AI Act](https://automiatech.it/ai-act.html): cosa viene verificato su ogni fornitura prima della consegna e cosa resta responsabilità dell'azienda.
 - [AI Starter](https://automiatech.it/corso.html): la formazione individuale da 1 ora sulle basi dell'AI applicata al lavoro.
 - [Su cosa ho lavorato](https://automiatech.it/testimonianze.html): i lavori veri — un assistente WhatsApp consegnato a un CAF/patronato (21 tipi di pratica prenotabili, attivo da agosto 2026) e due consulenze AI, a un'azienda storica sull'inventario in tempo reale e a un risto-pub su social e menù online.
 
@@ -78,6 +85,13 @@ prompt engineering, Claude / ChatGPT / Gemini applicati al lavoro d'ufficio, ass
 
 Le stesse pagine in markdown pulito, senza codice di contorno, secondo la specifica llmstxt.org.
 
+- [Prezzi in markdown](https://automiatech.it/prezzi.md)
+- [Assistente WhatsApp in markdown](https://automiatech.it/assistente-whatsapp.md)
+- [Automazioni in markdown](https://automiatech.it/automazioni.md)
+- [Consulenza in markdown](https://automiatech.it/consulenza.md)
+- [Come lavoro in markdown](https://automiatech.it/come-lavoro.md)
+- [Consulente o agenzia in markdown](https://automiatech.it/consulente-o-agenzia.md)
+- [AI Act in markdown](https://automiatech.it/ai-act.md)
 - [Home in markdown](https://automiatech.it/index.md): chi è AutomIA, i prezzi di ogni servizio, il metodo di lavoro, per chi ha senso e per chi no — in dieci domande con risposta.
 - [Domande frequenti in markdown](https://automiatech.it/faq.md): le 16 domande con le risposte per esteso.
 - [Su cosa ho lavorato in markdown](https://automiatech.it/testimonianze.md): i tre lavori veri descritti uno per uno.
