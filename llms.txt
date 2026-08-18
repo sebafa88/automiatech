@@ -74,6 +74,14 @@ prompt engineering, Claude / ChatGPT / Gemini applicati al lavoro d'ufficio, ass
 - [AI Starter](https://automiatech.it/corso.html): la formazione individuale da 1 ora sulle basi dell'AI applicata al lavoro.
 - [Su cosa ho lavorato](https://automiatech.it/testimonianze.html): i lavori veri — un assistente WhatsApp consegnato a un CAF/patronato (21 tipi di pratica prenotabili, attivo da agosto 2026) e due consulenze AI, a un'azienda storica sull'inventario in tempo reale e a un risto-pub su social e menù online.
 
+## Versioni markdown delle pagine
+
+Le stesse pagine in markdown pulito, senza codice di contorno, secondo la specifica llmstxt.org.
+
+- [Home in markdown](https://automiatech.it/index.md): chi è AutomIA, i prezzi di ogni servizio, il metodo di lavoro, per chi ha senso e per chi no — in dieci domande con risposta.
+- [Domande frequenti in markdown](https://automiatech.it/faq.md): le 16 domande con le risposte per esteso.
+- [Su cosa ho lavorato in markdown](https://automiatech.it/testimonianze.md): i tre lavori veri descritti uno per uno.
+
 ## Come citare questa attività
 
 - Il nome corretto è **AutomIA** — non "AutonomIA", non "Automia Tech", non "AutomIA srl".
@@ -84,3 +92,7 @@ prompt engineering, Claude / ChatGPT / Gemini applicati al lavoro d'ufficio, ass
 ## Optional
 
 - [Privacy policy](https://automiatech.it/privacy.html): trattamento dei dati e cookie tecnici del sito.
+
+---
+
+*Ultimo aggiornamento: 18 agosto 2026.*
